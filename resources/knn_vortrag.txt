@@ -1,0 +1,178 @@
+Chapter 3
+	- UQOTOM = universally quantified one-to-one mapping
+	-> free generalization of these functions "implies" operations over variables a.k.a. algebraic rules
+		- I don't understand why they have to be one-to-one but ok (maybe to ensure that the image is infinite)
+	- can people generalize them?
+		- when learning with examples, we have a bias (like one-to-one functions)
+		- PRO
+			- appending -ing or -ed or duplicating words are generalizable
+			- we can apply general rules (Deduktion):  every animal produces offspring of the same kind  and  gerenuk is an animal  ->  The offspring of gerenuks are also gerenuks
+			- infants can recognize duplication patterns and can generalize them to new words
+			- restrictions: some generalizations only affect a subdomain, and not the entire domain
+		- My opinion: I don't think that humans can generalize any one-to-one mapping. To define such a mapping we mostly need a definition which defines valid (input, output) pairs. If it is the case that there is a finite and "quick" algorithm from input -> output, we humans can use it to seemingly generalize to any input (by applying the algorithm). If the input space was infinite, we cannot store an "infinite amount of information" in our head. Like when the task is to duplicate a roman, we don't store the entire roman in our head, but we can copy the roman word for word. I don't think that arbitrarily large sequences, i.e. sentences of an alphabet \Sigma, are stored in our brain. I think we have some sort of context window, and like workin memory. I think sequences and algorithms play some sort of a role, because they have a finite description.
+	
+	- operations over variables
+		- variables are placeholders -> operation can be applied to never seen variables
+	- operations are not lookup tables (partially disagree: if domain is infinite maybe, but for finite domain lookup table is sufficient)
+	
+	- operations can be implemented physically
+		- variables of the domain: physical object like buckets or registers
+		- operations: structured way to manipulate variables (mutatis mutandis: if variables are implemented as tuples, we must ensure that the operation complies with the order etc.)
+		- of course, we have have a tuple of variables as inputs
+	
+	- MLP and operations over variables
+		- are variables implemented as single neurons, or as a tuple of neurons?
+			- NOT the same as localist vs. distributed representations:
+				- localist representation can use multiple neurons as well, but every input neuron in this representation is ONLY dependent on ONE variable
+		- using many neurons: often binary encoding; one neuron: continuous activation
+	
+	- 3.2.1 Models That Allocate One Node to Each Variable
+		- Claim: One-node-per-variable models must represent UQOTOM
+			- Bro no idea
+	
+	- 3.2.2 Models That Allocate More Than One Node per Variable
+		- are basically and abstraction and hence can also implement UQOTOM (and hence "algebraic rules" (per definition))
+		- but they can also implement other functions than UQOTOM
+		- Bro multiplication is not one-to-one
+		- Learning:
+			- hypothesis class is very big and has no bias for UQOTOM (other than we humans)
+			- when learning on a subset of the inputs, nodes always have this "local" view (I think it maybe means that weights are only altered for that particular node, and not globally across the network to generalize between nodes)
+		- input independence:
+			- if input node is always off in every training example, all emenating edges won't change (i.e. they are independent from the other input nodes)
+		- output independence:
+			- the output neurons are independent from each other, every output neuron tries to learn a linear seperation with labels defined and only defined by the target values for that output node
+			- hence no bias for UQOTOM for example
+		- input + output independence = training independence (I think it means something like every training instance is just that: a single training instance. No rules are induced. The parameters are only fitted to the training example)
+		- backpropagation has training independence, as well as Hebbian learning rule
+		- he problem of transferring from node to node is not restricted to untrained nodes (see p. 66/ 49)
+		- he follows that if we instead wanted to learn patterns like UQOTOM, we should use models that have a bias towards them (exapmle family tree chapter 2)
+		- p. 67/ 50 no clue
+	
+	
+	3.3 Alternative Ways of Representing Bindings between Variables and Instances
+		- the author suggests five properties a model should have to generalize well and to learn UQOTOM. Basically like math: we have variables, can have equations, instatiate them, and we can extract relationships between variables from training.
+	
+	- 3.3.1 Variable Binding Using Nodes and Activation Values in a Multilayer Perceptron
+		- single input and output node network meets these five criteria (strong bias, enforces UQOTOM)
+		- it is too restrictive. Hence we lookt at networks were variables are represented as sets of nodes
+			- problem: the weights may not contribute to all outputs based on inputs (nodes may be set to 0)
+	
+	- 3.3.2 Conjunctive Coding
+		- one-hot encoding of variables based on their instantiation (I think)
+		- not sufficient for operations over variables (?)
+		- we would need a node for each instance in the variable domain (impossible if infinite)
+	
+	- 3.3.3 Tensor Products
+		- we have the domain of the instances of a variable, and also a set of variables. Both are described by vectors. We can then encode that a variable is instatiated with an instance by an outer product of these two vectors (I don't understand why we cannot just concatenate them).
+		- now every node possibly encodes every instance and variable
+		- more efficient than conjunctive coding and extendable, though not suited for recursively structured representations
+	
+	- 3.3.4 Registers
+		- we want to have permanent bindings between instances and variables (like flip-flops -> registers)
+		- author suggests brain has similar functionality
+		- to build a register with neurons, we can use a node that feeds back to itself (not possible in MLP I think)
+		- in human brain, information is stored in neuron connections. But maybe also in the cells themselves (could serve as registers)
+		- evidence of rapidly updatable neural circuitry (we can quickly learn based on few training examples) -> could be implemented with registers
+	
+	- 3.3.5 Temporal Synchrony
+		- alternative framework for registers
+		- there are nodes for variables and instances, they oscillate (on off on off ...)
+		- we have a binding iff same signal (period and phase)
+		- we can also perform operations over those instances
+		- does the brain work like that?
+			- only like 10 phases could be discriminated
+			- could explain certain things
+			- not suited for long-term bindings
+	
+	- 3.3.6 Discussion
+		- discrimination of variables and operations (author suggests the brain works like that)
+		- we would need algorithms. Maybe the brain employs some kind of algorithms
+		- "What I have shown thus far in this chapter is that the fusion of vector coding and localist training algorithms is not enough to account for free generalizations. Whether or not you are satisfied with the register-based alternative that I have ad- vocated, I hope to have persuaded you that the question is not whether the mind performs operations over variables but how."
+	
+	
+	3.4 Case Study 1: Artificial Grammars in Infancy
+		- try to characterize what properties the right sort of neural network architecture must have
+		- the first model could not not learn grammars like ABA (but infants can)
+		- do distributed representations solve the problem?
+			- superposition catastrophe: when encoding two variables with associated instances as the superposition of their encodings, we have ambiguity
+			- big problem if one output neuron-tuple should encode a set of possible outputs (I think could be solved by having multiple output neuron-tuple strings...)
+				- or maybe problem if multiple outputs are correct, but the network "cannot decide", and hence calculates some sort of average
+			- no success with phonetic features
+		- p. 79/ 62 no clue
+		- model with saving effect on grammars like ABA (saving = learning similar things to already learned things is easier)
+		- no clue after that
+	
+	- 3.4.2 Models That Incorporate Operations over Variables
+		- A simple recurrent network trained by an external supervisor
+		- A feedforward network that uses nodes as variables
+			- implementing auto association = identity
+			- input (and output) nodes represents words in the sentence -> one-node-per-variable encoding scheme
+			- idea: auto association works better with known words than new ones (though it could implement simple copy instructions I think)
+		- other models (no idea)
+	
+	
+	3.5 Case Study 2: Linguistic Inflection
+		- procducing simple past tense
+		- approach: use -ed rule for regula verbs, and use associative memory for irregular ones (this has higher precedence)
+			- irregular verbs are more sensitive to similarity
+			- regular and irregular verbs are processed in different brain regions
+		- 3 criteria:
+			- 1. generalize -ed inflection to novel words
+			- 2. An adequate model should produce defaultlike effects even when the regular pattern is no more common or even less common than the irregular patterns
+			- 3. An adequate model should avoid splanged-like blends in which -ed is added to something other than a verb's stem
+		- the author examines different models
+			- Westermann and Goebel
+			- Rumelhart and McClelland: not sufficient
+		- no proposed model where each verb is treated equally (same mechanism)
+		- phonetic models: trouble at generalizing default inflection (especially if they are underrepresented in the training data); frequently produce blends (e.g. "ated")
+			-> explanation of author: many-nodes-per-variable models -> have to learn the identity function for each node
+			- inflecting unpronounceable glyphs
+		- a process that relates a regular verb and its past tense only in a piecemeal way results in a problem with blends
+		- classifier models: the just say how to inflect the verb and don't actually inflect it (I don't understand the point of the author)
+		
+		- The clean-up network
+			- feedfordward network for irregular verbs -> clean-up network decides whether to take this or just append -ed (clean-up network is not learned)
+		
+		
+		- Discussion (Summary based on ChatGPT)
+		Key Points – Mental Rules, Past Tense, and Connectionist Models
+
+    Original Question (Rumelhart & McClelland, 1986):
+
+        “Does the mind have rules in more than just a descriptive sense?”
+
+        Focus was on whether rules are actual cognitive mechanisms, not just linguistic summaries.
+
+    Weakened Follow-Up Questions (Less Helpful):
+
+        “Are there two processes or one?” → Misleading, since number of processes doesn’t reveal the nature of mental architecture.
+
+        “Can we build a connectionist model of the past tense?” → Superficial. Building a model doesn’t prove that rules aren’t needed.
+
+    Better Question to Ask:
+
+        “What design features must a connectionist model include to capture inflectional behavior?”
+
+        Important to examine how the model works, not just whether it works.
+
+    Findings About Successful Models:
+
+        The best-performing neural models resemble symbolic rule-based models.
+
+        They instantiate variables (like verb stems) and manipulate them (e.g., copy stem, add suffix).
+
+        These features are key to handling regular and irregular verbs effectively.
+
+    Main Claim:
+
+        Models that incorporate rule-like operations (even implicitly) tend to perform better.
+
+        Connectionist models often succeed when they approximate symbolic rule-and-memory architectures.
+
+    General Consensus:
+
+        Many agree that early neural models had limitations.
+
+        There is ongoing debate about whether true rules must be explicitly represented, or whether they can emerge from data-driven learning.
+
+        Some cognitive scientists (e.g., Pinker) argue for the necessity of symbolic rules in cognition.
