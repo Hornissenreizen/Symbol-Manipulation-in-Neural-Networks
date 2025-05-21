@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1747649442.96877 "/home/jonas/Desktop/KNN Vortrag/latex/chapters/introduction/sub.tex" "chapters/introduction/sub.pdf" "sub" 1747649443.57255 0
-  "/home/jonas/Desktop/KNN Vortrag/latex/chapters/introduction/sub.tex" 1747649442.71788 3635 f034c50ab4b4bda0bc18bb875efab3e9 ""
+["pdflatex"] 1747746661.96616 "/home/jonas/Desktop/KNN Vortrag/latex/chapters/introduction/sub.tex" "chapters/introduction/sub.pdf" "sub" 1747746662.57488 0
+  "/home/jonas/Desktop/KNN Vortrag/latex/chapters/introduction/sub.tex" 1747746661.72204 3635 c3eac168942a7f9db6ddd767aef4f724 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1734431873.45473 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1734431874.71172 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1734431874.71172 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -24,6 +24,9 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1734431877.4467 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1734431877.4467 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1734431877.4467 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm" 1734431877.4897 848 f478e0761563bbc369eca609a1741348 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm" 1734431877.4897 848 e1bc58a31b9ed9c3729ffea165acfaac ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm" 1734431877.4897 848 26631fcb3e4cb6757598b9cda7967b63 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1734431879.95068 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1734431879.95068 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1734431879.95568 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -200,6 +203,8 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty" 1734431865.39479 4904 ee78b44e85d6fccf08cd99370557481e ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty" 1734431865.48179 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1734431865.48379 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/Ustmry.fd" 1734431865.53779 1766 216b0f832c406513647608b5bb9bb8ff ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty" 1734431865.53779 11080 aa7f81da60ce104f0dbb8b827dd14383 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.cls" 1734431865.53979 1507 57de335d88fde4e5c924dfed577fdb74 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty" 1734431865.53979 5262 70ab9987ec94ed2beeb5c2d951d465f6 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/tools/bm.sty" 1734431865.57779 13236 1aba485b47e3c79a47dc0906cc971820 ""
@@ -210,10 +215,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734431864.2608 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734431864.3988 3343776 2b14423543ae36c58e6a97232fe20f3b ""
   "/usr/local/texlive/2024/texmf.cnf" 1734431864.4218 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "chapters/introduction/../../main.tex" 1747649046.19516 2175 657054980605eb4898ab7afe83736c6c ""
-  "chapters/introduction/sub.aux" 1747649443.51587 271 f3786a5f805f672544cd5829d7d27549 "pdflatex"
-  "chapters/introduction/sub.out" 1747649443.51587 103 9814c2d956916adb9290eca4e25c967a "pdflatex"
-  "chapters/introduction/sub.tex" 1747649442.71788 3635 f034c50ab4b4bda0bc18bb875efab3e9 ""
+  "chapters/introduction/../../main.tex" 1747746561.23587 2197 62e5fab3604bf42a327ff447fe638a7d ""
+  "chapters/introduction/sub.aux" 1747746662.51704 271 f3786a5f805f672544cd5829d7d27549 "pdflatex"
+  "chapters/introduction/sub.out" 1747746662.51804 103 9814c2d956916adb9290eca4e25c967a "pdflatex"
+  "chapters/introduction/sub.tex" 1747746661.72204 3635 c3eac168942a7f9db6ddd767aef4f724 ""
   (generated)
   "chapters/introduction/sub.aux"
   "chapters/introduction/sub.log"

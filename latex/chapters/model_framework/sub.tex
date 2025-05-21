@@ -16,7 +16,125 @@
 
     Clearly, based on the assumption we have to define an encoding of the instances of our problem domain to $\mathbb{R}^n$. This encoding is also invariant in time and space, which must not necessarily be the case in human brains. If you think of the number 1, your brain might show different activity at different times (maybe one time you are more stressed out; or you think differently of the number based on your current activity, as 1 also represents the multiplicative identity for example). Still, there might be some sub-circuitry activated when adding numbers where a certain set of neurons show similar activation patterns when adding by 1.
 
-    Now, there are rather boring mappings, like $f: \mathbb{N} \mapsto \{0, 1\}, f(n) \mapsto 1[n \text{ is even}]$. Seemingly, we humans can compute this functions over the entire set $\mathbb{N}$. However, I doubt this. If I asked you whether 98509489028237764095029386902 is even or odd, you wouldn't have any issues. But if I asked you to repeat this number instead, most of us would fail (even if you managed to do this, what about even bigger and bigger numbers?).
+    \subsection{Motivation for Symbol Manipulation}
+    Now, there are rather "uninteresting" mappings. To clarify what I mean, let's analyze the following example:
+    
+    \begin{example}
+        \label{example:even_odd}
+        Let $f: \mathbb{N} \mapsto \{0, 1\}, f(n) \mapsto 1[n \text{ is even}]$. Seemingly, we humans can compute this functions over the entire set $\mathbb{N}$. Note, however, that most digits are of no importance, and hence we don't have to remember and manipulate them. As an illustration, if I asked you whether 98509489028237764095029386902 is even or odd, you wouldn't have any issues. But if I asked you to repeat this number instead, most of us would fail (even if you managed to do this, what about even bigger and bigger numbers?).
+    \end{example}
 
-    Why did I claim this mapping to be boring? Because this problem can be reduced to a mapping $f': \{0, 1, \dots, 9\} \mapsto \{0, 1\}$ (by just considering the last digit). This mapping has a finite domain, and hence also a finite image. Such mappings can be implemented by simple input-output associations.
+    Why did I claim this mapping to be uninteresting? Because this problem can be reduced to a mapping $f': \{0, 1, \dots, 9\} \mapsto \{0, 1\}$ (by just considering the last digit). This mapping has a finite domain, and hence also a finite image. Such mappings can be implemented by simple input-output associations (and hence no abstraction or "symbol manipulation" is needed). This leads to the following definition:
+
+    \begin{definition}
+        We say $f: D \mapsto I $ \emph{requires symbol manipulation} iff $f(D)$ is infinite.
+    \end{definition}
+
+    \begin{proposition}
+        Let $f: D \mapsto I$ with $f(D) = I$, i.e. $f$ is surjective, and let $I$ be infinite. It follows that $D$ is infinite as well.
+    \end{proposition}
+    \vspace{-2.5em}
+    \begin{proof}
+        For the sake of contradiction, assume $D$ was finite. But then $f(D)$ must be finite as well. But since $f(D) = I$, I must be finite, a contradiction. $\lightning$
+    \end{proof}
+
+    \begin{lemma}
+        Let $f: D \mapsto I$ be a function with an infinite image $f(D)$. Then $f$ cannot be reduced to another function $g: h(D) \mapsto f(D)$ with finite image satisfying $f(\bm{x}) = g(h(\bm{x}))$ for all $\bm{x} \in D$.
+    \end{lemma}
+    \vspace{-2.5em}
+    \begin{proof}
+        Assume that $f(\bm{x}) = g(h(\bm{x}))$, i.e. $f$ can be reduced to $g$. This implies $g(h(D)) = f(D)$, and hence the image of $g$ is infinite.
+    \end{proof}
+
+    \begin{corollary}
+        A function $f$ that requires symbol manipulation cannot be reduced to a function that does not require symbol manipulation.
+    \end{corollary}
+
+    In the book, the author put much emphasis on so called \emph{universally quantified one-to-one mappings}. Hence, we take over his definition:
+
+    \begin{definition}
+        A function $f: D \mapsto I$ is said to be \emph{UQOTOM} (universally quantified one-to-one mapping) iff $f$ is bijective.
+    \end{definition}
+
+    \begin{proposition}
+        Let $f: D \mapsto I$ be a UQOTOM, and let $D$ be infinite. Then $f$ requires symbol manipulation.
+    \end{proposition}
+    \vspace{-2.5em}
+    \begin{proof}
+        For the sake of contradiction, assume $f(D)$ was finite. But per definition of cardinality, we thus have $|D| = |f(D)|$, and hence $D$ is finite, a contradiction. $\lightning$
+    \end{proof}
+
+    \subsection{Importance of UQOTOMs for Symbol Manipulation}
+    One might ask whether we humans can truly compute mappings with an infinite image:
+
+    \begin{disputation}
+        Can the human brain truly compute mappings with an infinite image, i.e. produce an infinite amount of outputs given an infinite amount of inputs?
+    \end{disputation}
+
+    Let's analyze the very insightful identity mapping $f(\bm{x}) \coloneqq \bm{x}$. This could be like repeating a text or a number. Can we truly repeat \emph{any} text of \emph{any} length?
+    
+    My take would be that it depends on whether we let the brain operate in what I called "in space and over time": If a  human sat in an empty room and was shown an entire roman, would he be able to repeat it? I don't think so. Of course, if the roman was provided sequentially to the human, like word for word, the human could repeat the roman word for word. But this is not the modus operandi of a mapping, where we take the full input at once, and produce the desired output.
+
+    If, however, the participant was allowed to use pen and paper, he could copy the input onto that using the fact that he has an infinite amount of time and an infinite amount of paper. This, of course, is not very realistic, but the point is that the human brain seems to be able to imitate an universal computer.
+
+    \begin{axiom}
+        The human brain can emulate an universal computer given enough time and resources.
+    \end{axiom}
+
+    This is especially evident when trying to emulate a Turing machine, which has a finite description, and does small computational steps each time.
+
+    But the realistic answer seems to be that humans cannot really compute mappings with an infinite image, and hence cannot really compute abstract symbol manipulation over an infinite domain, though they truly can do so for a finite domain.
+
+    But what does it mean to do symbol manipulation over a finite domain? Well, the answer is not that obvious, but consider the mapping $f(x) \coloneqq 42 \cdot x$. I am sure that with a little bit of concentration the reader is able to compute, say, $f(9)$. But how did the brain do that? There is a real chance that you encountered this arithmetic task for the first time in your life.
+
+    The idea is that the brain employed some kind of \emph{symbol manipulation}. This means that it is not the case that the brain has an associative memory of all $(x, y)$ pairs and the corresponding product $x \cdot y$. Even though it could use associative memory to compute multiplication since we restricted ourselves to a finite domain, like for example that $x$ and $y$ are less than or equal 100, it seems very unlikely because the brain seems to be able to generalize well to never encountered tasks. (Or did you memorize all the $\binom{100}{2} = 4950$ possible multiplications?)
+
+    \begin{definition}[Informal; Dependent on Situation]
+        A model is said to \emph{generalize well} iff it can compute reasonable outputs for never seen inputs (reasonable with respect to a formal system for example).
+    \end{definition}
+
+    \begin{remark}
+        This property to generalize well is just one aspect of symbol manipulation. This concept corresponds loosely to what the author refers to as \emph{relation over variables}.
+    \end{remark}
+
+    As it turns out, the human brain can generalize a variety of mappings well, and many of them are UQOTOMs, i.e. one-to-one mappings. Just to name a few:
+    \begin{itemize}
+        \item adding or multiplying by a constant (other than 0 or 1)
+        \item repeating the input ($\equiv$ identity function)
+        \item duplicating the input
+        \item producing simple past tense of verbs (like $\text{think} \mapsto \text{thought}$)
+        \item $x \mapsto x^2, \ x \in \mathbb{N}$
+        \item $\dots$
+    \end{itemize}
+
+    The premise is that we humans have a bias for such mappings.
+
+    \begin{example}
+        \label{example:uqotom_bias}
+        Say you are given the following training data set of input-output pairs:
+        \begin{center}
+            \begin{tabular}{l|r}
+                Input & Output \\
+                \hline
+                1010 & 1010 \\
+                0100 & 0100 \\
+                1110 & 1110 \\
+                0000 & 0000 \\
+            \end{tabular}
+        \end{center}
+
+        What would you guess the output should be for 1111? Most would answer 1111, as it fits the identity pattern of the training data. However, note that the last bit of each output is always a 0, and hence $1111 \mapsto 1110$ would also be reasonable (and in fact many other mappings too).
+    \end{example}
+
+    Even though there are other examples where participants would not generalize across the entire input domain, like presented in the book, we still have the following premise:
+
+    \begin{premise}[Bias for UQOTOMs]
+        Given a training dataset of an UQOTOM, humans have a bias to abstract an universally quantified mapping that is one-to-one (and hence in a sense generalize well).
+    \end{premise}
+
+    Based on these observations, our goal is to analyze different neural network architectures and to examine their generalization ability, and how their bias corresponds to that of humans.
+
+    \begin{remark}
+        It is questionable, though, whether the human brain wires a new small neural network for each learning task, like one presented in example~\ref{example:uqotom_bias}. It would also be possible that the brain employs a meta prediction model, that given training data and an input, it produces an output. Hence, the training data is rather a variable fed into this meta prediction network, than serving as a training supervisor for a newly learned neural network.
+    \end{remark}
 \end{document}

@@ -38,14 +38,14 @@ Chapter 3
 			- hypothesis class is very big and has no bias for UQOTOM (other than we humans)
 			- when learning on a subset of the inputs, nodes always have this "local" view (I think it maybe means that weights are only altered for that particular node, and not globally across the network to generalize between nodes)
 		- input independence:
-			- if input node is always off in every training example, all emenating edges won't change (i.e. they are independent from the other input nodes)
+			- if input node is always off in every training example, all emanating edges won't change (i.e. they are independent from the other input nodes)
 		- output independence:
-			- the output neurons are independent from each other, every output neuron tries to learn a linear seperation with labels defined and only defined by the target values for that output node
+			- the output neurons are independent from each other, every output neuron tries to learn a linear separation with labels defined and only defined by the target values for that output node
 			- hence no bias for UQOTOM for example
 		- input + output independence = training independence (I think it means something like every training instance is just that: a single training instance. No rules are induced. The parameters are only fitted to the training example)
 		- backpropagation has training independence, as well as Hebbian learning rule
 		- he problem of transferring from node to node is not restricted to untrained nodes (see p. 66/ 49)
-		- he follows that if we instead wanted to learn patterns like UQOTOM, we should use models that have a bias towards them (exapmle family tree chapter 2)
+		- he follows that if we instead wanted to learn patterns like UQOTOM, we should use models that have a bias towards them (example family tree chapter 2)
 		- p. 67/ 50 no clue
 	
 	
@@ -54,7 +54,7 @@ Chapter 3
 	
 	- 3.3.1 Variable Binding Using Nodes and Activation Values in a Multilayer Perceptron
 		- single input and output node network meets these five criteria (strong bias, enforces UQOTOM)
-		- it is too restrictive. Hence we lookt at networks were variables are represented as sets of nodes
+		- it is too restrictive. Hence we look at networks were variables are represented as sets of nodes
 			- problem: the weights may not contribute to all outputs based on inputs (nodes may be set to 0)
 	
 	- 3.3.2 Conjunctive Coding
@@ -113,7 +113,7 @@ Chapter 3
 	
 	3.5 Case Study 2: Linguistic Inflection
 		- procducing simple past tense
-		- approach: use -ed rule for regula verbs, and use associative memory for irregular ones (this has higher precedence)
+		- approach: use -ed rule for regular verbs, and use associative memory for irregular ones (this has higher precedence)
 			- irregular verbs are more sensitive to similarity
 			- regular and irregular verbs are processed in different brain regions
 		- 3 criteria:
