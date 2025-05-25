@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1748175663 "/home/jonas/Desktop/Symbol-Manipulation-in-Neural-Networks/latex/chapters/implementing_symbol_manipulation_in_mlps/sub.tex" "chapters/implementing_symbol_manipulation_in_mlps/sub.pdf" "sub" 1748175665
+["pdflatex"] 1748177284 "/home/jonas/Desktop/Symbol-Manipulation-in-Neural-Networks/latex/chapters/implementing_symbol_manipulation_in_mlps/sub.tex" "chapters/implementing_symbol_manipulation_in_mlps/sub.pdf" "sub" 1748177286
   "/etc/texmf/web2c/texmf.cnf" 1667832238 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jonas/Desktop/Symbol-Manipulation-in-Neural-Networks/latex/chapters/implementing_symbol_manipulation_in_mlps/sub.tex" 1748175662 5304 a0fffb4023c0cb0cc186426c7f972033 ""
+  "/home/jonas/Desktop/Symbol-Manipulation-in-Neural-Networks/latex/chapters/implementing_symbol_manipulation_in_mlps/sub.tex" 1748177281 6432 056f91fe18a3bef69c11ecee50f93b65 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -219,9 +219,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697878699 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712737265 1405647 f966d3218063cabc8be94f5b4e8cfbea ""
   "chapters/implementing_symbol_manipulation_in_mlps/../../main.tex" 1748164471 2298 4417ef29b8ab50edcfae79b7736bcb52 ""
-  "chapters/implementing_symbol_manipulation_in_mlps/sub.aux" 1748175665 1091 4ab42648b0b334536b8b9714e894230c "pdflatex"
-  "chapters/implementing_symbol_manipulation_in_mlps/sub.out" 1748175665 509 8a05e4f87b45661713cf84a14c4ed017 "pdflatex"
-  "chapters/implementing_symbol_manipulation_in_mlps/sub.tex" 1748175662 5304 a0fffb4023c0cb0cc186426c7f972033 ""
+  "chapters/implementing_symbol_manipulation_in_mlps/sub.aux" 1748177286 1340 d9cf1b6b9b947afff7f1866252238561 "pdflatex"
+  "chapters/implementing_symbol_manipulation_in_mlps/sub.out" 1748177286 509 8a05e4f87b45661713cf84a14c4ed017 "pdflatex"
+  "chapters/implementing_symbol_manipulation_in_mlps/sub.tex" 1748177281 6432 056f91fe18a3bef69c11ecee50f93b65 ""
   (generated)
   "chapters/implementing_symbol_manipulation_in_mlps/sub.aux"
   "chapters/implementing_symbol_manipulation_in_mlps/sub.log"

@@ -90,7 +90,33 @@
         =
         \begin{pmatrix*}
             1 \\
-            1 \\
-        \end{pmatrix*}$.
+            0 \\
+        \end{pmatrix*}$. Such a mapping can be implemented by the MLP depicted in figure~\ref{fig:non_injective_linear_mlp}.
+
+        \begin{figure}[h]
+            \centering
+            \begin{tikzpicture}[
+                neuron/.style={circle, draw=black, minimum size=1cm},
+                layer/.style={node distance=1.5cm and 2cm},
+                every edge/.style={draw,->,thick}
+            ]
+
+            % Input Layer
+            \node[neuron] (I1) at (0,1.5) {$v_1$};
+            \node[neuron] (I2) at (0,-1.5) {$v_2$};
+
+            % Output Layer
+            \node[neuron, right=4cm of I1] (O1) {$f_1$};
+            \node[neuron, right=4cm of I2] (O2) {$f_2$};
+
+            % Connections with weights
+            \draw (I1) edge node[pos=0.3, above] {$1$} (O1);
+            \draw (I1) edge node[pos=0.3, above] {$0$} (O2);
+            \draw (I2) edge node[pos=0.3, below] {$1$} (O1);
+            \draw (I2) edge node[pos=0.3, below] {$0$} (O2);
+            \end{tikzpicture}
+            \label{fig:non_injective_linear_mlp}
+            \caption{Simple MLP with linear activations implementing a non-injective mapping.}
+        \end{figure}
     \end{remark}
 \end{document}
