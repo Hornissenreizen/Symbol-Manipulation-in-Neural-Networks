@@ -1,0 +1,25 @@
+
+- with linear activation functions hidden layers are irrelevant
+    - one node per variable is enforced to learn UQOTOM
+    - many nodes per variable are basically a matrix multiplication and thus don't have to be one-to-one
+
+- many nodes per variable
+    - they can represent a lot of functions, but which functions are actually learned by learning algorithms?
+        - claim: no bias for UQOTOM (training must include entire domain) -> we could do some experiments like trying to learn identity etc.
+        - every input node is treated separately -> no uniform treatment (which might be desired)
+
+        - training independence: no generalization of one-to-one mapping between input nodes
+            - input independence:
+                - if one input is always 0 bp basically ignores it
+                - if any other value than 0 it kinda acts like a bias for the next layer I think -> no generalization based on input activation
+            - output independence:
+                - every output node learns a linear separation independently
+                - hence, when learning identity and the last node is always, say, 0, then this node learns to always map to 0 (it doesn't care what the other output nodes learn). Hence, we have poor generalization
+        
+        -> TASK: visualize the example of learning identity with many nodes per variable on a restricted training set and explain why the MLP cannot generalize.
+
+        - BUT: the four input nodes could be interpreted as 4 one node per variable input nodes...
+
+    - known noes := nodes that have seen at least two (or all?) inputs
+    - The problem of transferring from node to node is not restricted to untrained nodes
+    -> TASK: we could copy the example of page 65/ 48

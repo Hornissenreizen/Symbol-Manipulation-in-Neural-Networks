@@ -1,0 +1,1 @@
+- Hebbian learn rule (and training independence)

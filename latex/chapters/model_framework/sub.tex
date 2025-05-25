@@ -137,4 +137,27 @@
     \begin{remark}
         It is questionable, though, whether the human brain wires a new small neural network for each learning task, like one presented in example~\ref{example:uqotom_bias}. It would also be possible that the brain employs a meta prediction model, that given training data and an input, it produces an output. Hence, the training data is rather a variable fed into this meta prediction network, than serving as a training supervisor for a newly learned neural network.
     \end{remark}
+
+    It may also be the case that the brain reduces functions to functions with a finite image by using its computational ability to emulate basic algorithms. Hence, the brain might store this finite description of the algorithm as well as the basic finite mapping in order to emulate generalizable mappings.
+
+    \begin{example}
+        Take multiplication for example. When multiplying two numbers, like $42 \cdot 9$, does the brain really employ a feed-forward structure to compute this, or does it rather decompose this task to
+        \[
+            42 \cdot 9 = 4 \cdot 9 \cdot 10 + 2 \cdot 9 \quad ?
+        \]
+        We see that multiplication can be decomposed to addition and shifting based on a finite algorithm, and addition itself behaves similarly. The algorithm may look something like this:
+        % \begin{algorithm}[H]
+        %     \begin{algorithmic}[1]
+        %     \REQUIRE Integers $a$, $b$ with $a = \sum_{i=0}^{n} a_i 10^i$, $b = \sum_{j=0}^{m} b_j 10^j$
+        %     \ENSURE $a \cdot b$
+        %     \STATE $result \gets 0$
+        %     \FOR{$j = 0$ to $m$}
+        %         \STATE $partial \gets a \cdot b_j$
+        %         \STATE $partial \gets partial \times 10^j$
+        %         \STATE $result \gets result + partial$
+        %     \ENDFOR
+        %     \RETURN $result$
+        %     \end{algorithmic}
+        % \end{algorithm}
+    \end{example}
 \end{document}
