@@ -119,4 +119,84 @@
             \caption{Simple MLP with linear activations implementing a non-injective mapping.}
         \end{figure}
     \end{remark}
+
+    \subsection{MLPs with Non-Linear Activation Functions}
+    In order to learn not just linear mappings, MLP typically employ non-linear sigmoidal activation functions, like the logistic function $\sigma(x) \coloneqq \frac{1}{1+e^{-x}}$ or $\tanh(x) \coloneqq \frac{e^x - e^{-x}}{e^x + e^{-x}}$.
+
+    \begin{figure}[h]
+    \centering
+        \begin{tikzpicture}[>=stealth]
+            \begin{axis}[
+                axis equal image,
+                xmin=-3.5,xmax=3.5,
+                ymin=-1.5,ymax=1.5,
+                axis x line=middle,
+                axis y line=middle,
+                axis line style=->,
+                xlabel={$x$},
+                ylabel={$y$},
+                ]
+                \addplot[no marks,black,-] expression[domain=-5:5,samples=1000]{tanh(x)} 
+                            node[pos=0.65,anchor=south west, yshift=0.1cm]{$y=\tanh(x)$}; 
+            \end{axis}
+        \end{tikzpicture}
+        \caption{Plot of the function $y=\tanh(x)$.}
+    \end{figure}
+
+    As it turns out, the analysis of such MLPs with non-linear activations is much harder.
+
+    \begin{example}
+        MLPs with non-linear activations like $\tanh(x)$ can represent non-injective functions (other than $f(x) \equiv \bm{0}$) even when only using one input node.
+        
+        For instance, the MLP depicted in figure~\ref{fig:non_injective_mlp_single_input} implements the non-injective mapping depicted in figure~\ref{fig:non_injective_function}.
+
+        \begin{figure}[h]
+            \centering
+            \begin{tikzpicture}[
+                    neuron/.style={circle, draw=black, minimum size=1cm},
+                    layer/.style={node distance=1.5cm and 2cm},
+                    every edge/.style={draw,->,thick}
+                ]
+
+                % Input Layer
+                \node[neuron] (I1) at (0,0) {$x$};
+
+                \node[neuron] (H1) at (2, 1) {$h_1$};
+                \node[neuron] (H2) at (2, -1) {$h_2$};
+
+                % Output Layer
+                \node[neuron] (O1) at (4, 0) {$f$};
+
+                % Connections with weights
+                \draw (I1) edge node[pos=0.3, above] {$1$} (H1);
+                \draw (I1) edge node[pos=0.3, below] {$-2$} (H2);
+                \draw (H1) edge node[pos=0.3, above] {$1$} (O1);
+                \draw (H2) edge node[pos=0.3, below] {$1$} (O1);
+            \end{tikzpicture}
+            \caption{Simple MLP using $\tanh(x)$ activation implementing a non-injective mapping.}
+            \label{fig:non_injective_mlp_single_input}
+        \end{figure}
+
+        \begin{figure}[h]
+        \centering
+            \begin{tikzpicture}[>=stealth]
+                \begin{axis}[
+                    axis equal image,
+                    width=10cm,
+                    xmin=-3.5,xmax=3.5,
+                    ymin=-1.5,ymax=1.5,
+                    axis x line=middle,
+                    axis y line=middle,
+                    axis line style=->,
+                    xlabel={$x$},
+                    ylabel={$y$},
+                    ]
+                    \addplot[no marks,black,-] expression[domain=-3.3:3.3,samples=1000]{tanh(tanh(x) + tanh(-2 * x))} 
+                                node[pos=0,anchor=south west, yshift=0.4cm]{$y=f(f(x) + f(-2x))$}; 
+                \end{axis}
+            \end{tikzpicture}
+            \caption{Plot of the function $y=f(f(x) + f(-2x))$ with $f(x) \coloneqq \tanh(x)$.}
+            \label{fig:non_injective_function}
+        \end{figure}
+    \end{example}
 \end{document}
