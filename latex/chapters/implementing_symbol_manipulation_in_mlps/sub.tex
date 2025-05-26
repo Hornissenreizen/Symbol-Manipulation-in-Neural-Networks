@@ -199,4 +199,54 @@
             \label{fig:non_injective_function}
         \end{figure}
     \end{example}
+
+    \subsubsection{Multiple Input Nodes}
+    As one might expect, the situation gets even more complicated when considering multiple input nodes. Still, we can observe interesting learning behavior of MLPs and examine how their tendency to abstract functions match to those of humans.
+
+    One illustrative example given in the book is to train a MLP with four binary input and output neurons to learn the identity mapping. For example, 1010 is mapped to 1010, 0001 to 0001, and so on. As we can see, this mapping has a finite domain of 16 possible inputs. It would be interesting to analyze how the MLP generalizes when trained on a real subset of the \emph{input space}.
+
+    Let's analyze the case of only training the MLP with inputs where the last bit is 0. Formally, our training data set $\mathcal{D}$ reads as:
+    \[
+        \mathcal{D} = \{ (\bm{x}, \bm{x}): \bm{x} \in \{0, 1\}^4, \ \bm{x}_4 = 0 \} \quad .
+    \]
+
+    \begin{example}
+        When you are presented the pattern
+
+        \begin{table}[h]
+            \centering
+            \begin{tabular}{c|c}
+                Input & Output \\
+                \hline
+                1010 & 1010 \\
+                0100 & 0100 \\
+                1110 & 1110 \\
+                0000 & 0000 \\
+            \end{tabular}
+        \end{table}
+        and asked to predict the output of 1111, many would predict 1111. Note that there is no right or wrong, as potentially any of the 16 possible bit strings are valid. However, we can infer some information about the human bias, which we can use to examine our models.
+    \end{example}
+
+    Similarly, after training is completed, we can test what the networks prediction would be for inputs like 1111, which it has never seen before. Interestingly, it predicts 1110. I mean, can we blame it, as it never learned how to handle the last bit. But that is exactly the point: The network could alternatively generalize the behavior it learned for the other three nodes to the last one, but instead it treats them independently. This, essentially, represents a bias of the architecture, which for some tasks (like this one) might be unwanted.
+
+
+    there is nothing wrong, bias misalignment.
+
+    \subsection{Conclusion}
+    We suspect brains to work fundamentally different than MLPs: they work recurrently, and learn dynamically without needing to construct entire neural networks for every task. However, the expressive power of MLPs and similar feedforward networks allows them to emulate specific tasks we humans are naturally good at (language, image recognition, etc.). When we train them on a subset of the input domain, these models seem to be chronically bad at generalizing.
+    
+    The argument is that this bias misalignment between us humans and these models lies in the architectural design of these models: They are a bare framework described by and processing numbers without any a priori information about the world or the task at hand encoded into them. Of course, engineers try to integrate domain specific knowledge into the architectural design of neural networks, like convolutional layers which aim to recognize shift-invariant features in a 2D image.
+
+    Personally, I don't think we should try to model the brain by individual neural networks for specific tasks, because for every such task, we would have to construct an architecture that aligns well with the human bias. Instead, we should focus on building one universal model, maybe consisting of different submodels, just like a computer consists of a cpu, gpu, ram etc. This model should have basic computational abilities, and should be able to coordinate and use its different parts in order to effectively handle a variety of tasks. I believe that this diversity of tasks this model can perform reinforces its precision, as it might combine knowledge from different areas.
+    
+    Of course, this task is monumentally difficult, but the possibilities of this \emph{artificial general intelligence} are endless, as we can scale those systems and deploy them constantly, hence might be able to operate much more efficiently than humans. The challenge is to find a suitable architecture. However, we have to keep in mind the fundamental differences of the human brain and a digital computer, like the fact that the brain consists of countless individual parallel processing units.
+
+    \subsection{Conclusion v2}
+    We suspect that brains operate fundamentally differently from MLPs. Unlike feedforward networks, brains function recurrently and learn dynamically, without needing to construct distinct neural architectures for every task. However, the expressive power of MLPs and similar feedforward models allows them to emulate specific tasks at which humans excel—such as language processing and image recognition. When trained on a subset of the input domain, these models often perform poorly at generalization.
+
+    The argument is that this misalignment in inductive bias between humans and such models stems from their architectural design. Neural networks are abstract mathematical frameworks that process numbers, with no built-in prior knowledge of the world or the task. While engineers do attempt to incorporate domain-specific knowledge—such as using convolutional layers to recognize shift-invariant features in 2D images—these additions remain narrow in scope.
+
+    Personally, I don't believe we should model the brain by designing individual neural networks for specific tasks, as this would require tailoring an architecture for each task that aligns well with human biases. Instead, we should aim to build a single universal model—possibly composed of modular subcomponents—analogous to how a computer includes a CPU, GPU, RAM, and other parts. Such a model should possess basic computational abilities and be capable of coordinating and utilizing its different components to handle a wide range of tasks. In fact, the diversity of tasks this model can perform may enhance its precision, as it could integrate knowledge across domains.
+
+    Of course, developing such a system is monumentally difficult. But the potential of this form of \emph{artificial general intelligence} is vast: we can scale and deploy these systems continuously, potentially allowing them to operate more efficiently than humans. The central challenge lies in discovering an appropriate architecture—while always keeping in mind the fundamental differences between the human brain and digital computers, such as the massively parallel nature of biological neural processing.
 \end{document}

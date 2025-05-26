@@ -145,19 +145,19 @@
         \[
             42 \cdot 9 = 4 \cdot 9 \cdot 10 + 2 \cdot 9 \quad ?
         \]
-        We see that multiplication can be decomposed to addition and shifting based on a finite algorithm, and addition itself behaves similarly. The algorithm may look something like this:
-        % \begin{algorithm}[H]
-        %     \begin{algorithmic}[1]
-        %     \REQUIRE Integers $a$, $b$ with $a = \sum_{i=0}^{n} a_i 10^i$, $b = \sum_{j=0}^{m} b_j 10^j$
-        %     \ENSURE $a \cdot b$
-        %     \STATE $result \gets 0$
-        %     \FOR{$j = 0$ to $m$}
-        %         \STATE $partial \gets a \cdot b_j$
-        %         \STATE $partial \gets partial \times 10^j$
-        %         \STATE $result \gets result + partial$
-        %     \ENDFOR
-        %     \RETURN $result$
-        %     \end{algorithmic}
-        % \end{algorithm}
+        We see that multiplication can be decomposed to addition and shifting based on a finite algorithm, and addition itself behaves similarly. The algorithm for multiplying a number $A$ by a digit $B$ may look something like this (if $B$ was bigger than we would recursively call this function and add the shifted results):
+        \begin{algorithm}
+        \caption{Multiplication by Decomposition}
+        \begin{algorithmic}[1]
+        \REQUIRE Two positive integers $A$ and $B, \ B \leq 9$
+        \ENSURE The product $P = A \cdot B$
+        \STATE Decompose $A$ into base-10 digits: $A = \sum_{i=0}^{n-1} a_i \cdot 10^i$, where $a_i$ is the $i$-th digit
+        \STATE Initialize $P \leftarrow 0$
+        \FOR{$i = 0$ to $n-1$}
+            \STATE $P \leftarrow P + (a_i \cdot B) \cdot 10^i$
+        \ENDFOR
+        \RETURN $P$
+        \end{algorithmic}
+        \end{algorithm}
     \end{example}
 \end{document}
