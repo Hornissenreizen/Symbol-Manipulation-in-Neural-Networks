@@ -58,6 +58,14 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithm.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithm.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty

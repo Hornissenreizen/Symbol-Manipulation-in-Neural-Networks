@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  26 MAY 2025 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  3 JUN 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -692,7 +692,7 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 [2])
 
 [3] (./chapters/model_framework/sub.tex
-Overfull \hbox (3.68489pt too wide) in paragraph at lines 24--25
+Overfull \hbox (3.68489pt too wide) in paragraph at lines 23--24
 \OT1/cmr/m/n/10 them. As an il-lus-tra-tion, if I asked you whether 98509489028237764095029386902
  []
 
@@ -705,7 +705,7 @@ Overfull \hbox (3.68489pt too wide) in paragraph at lines 24--25
 [6]
 
 [7{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 150.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 149.
 )
 
 [8] (./chapters/implementing_symbol_manipulation_in_mlps/sub.tex
@@ -730,9 +730,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[12])
+[12]
 
-[13] (./main.aux)
+[13])
+
+[14] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
@@ -745,18 +747,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0B4E4449777A5250724C0082A7B801B1;1820.
  ) 
 Here is how much of TeX's memory you used:
- 34511 strings out of 473330
- 792587 string characters out of 5719768
+ 34512 strings out of 473330
+ 792594 string characters out of 5719768
  1523272 words of memory out of 5000000
  57001 multiletter control sequences out of 15000+600000
  574435 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,764b,2446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,819b,2446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (13 pages, 268332 bytes).
+Output written on main.pdf (14 pages, 269668 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
  85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

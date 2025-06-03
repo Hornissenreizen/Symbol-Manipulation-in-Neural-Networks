@@ -7,11 +7,10 @@
     It might feel strange to analyze feed-forward networks (in contrast to recurrent ones), since, intuitively, the human brain operates recurrently. However, there are multiple reasons for this choice: First, shortcomings of this architectural design help us understand beneficial design patterns. Second, while the entire human brain might operate recurrently, there still might be non-recurrent sub networks. Third, it is a known result from computer science that multilayer perceptrons are universal approximators (if there aren't any parameter constraints).
 
     \begin{theorem}[MLPs are Universal Approximators]
-        Given any continuous function $f: D \mapsto I$, where $D \subseteq \mathbb{R}^m , \ I \subseteq \mathbb{R}^n$, and $D$ is compact, there exists a multilayer perceptron that defines a function $f': D \mapsto I$ s.t. 
+        Given any continuous function $f: D \mapsto I$, where $D \subseteq \mathbb{R}^m , \ I \subseteq \mathbb{R}^n$, we have for any $\epsilon > 0$ that there exists a multilayer perceptron that defines a function $f': D \mapsto I$ s.t. 
         \[
-            \underset{\bm{x} \in D}{\max} \|f(\bm{x}) - f'(\bm{x})\| < \epsilon
+            \underset{\bm{x} \in D}{\sup} \|f(\bm{x}) - f'(\bm{x})\| < \epsilon \quad .
         \]
-        for any $\epsilon > 0$.
     \end{theorem}
 
     Clearly, based on the assumption we have to define an encoding of the instances of our problem domain to $\mathbb{R}^n$. This encoding is also invariant in time and space, which must not necessarily be the case in human brains. If you think of the number 1, your brain might show different activity at different times (maybe one time you are more stressed out; or you think differently of the number based on your current activity, as 1 also represents the multiplicative identity for example). Still, there might be some sub-circuitry activated when adding numbers where a certain set of neurons show similar activation patterns when adding by 1.
@@ -99,7 +98,7 @@
 
     As it turns out, the human brain can generalize a variety of mappings well, and many of them are UQOTOMs, i.e. one-to-one mappings. Just to name a few:
     \begin{itemize}
-        \item adding or multiplying by a constant (other than 0 or 1)
+        \item adding or multiplying by a constant other than 0
         \item repeating the input ($\equiv$ identity function)
         \item duplicating the input
         \item producing simple past tense of verbs (like $\text{think} \mapsto \text{thought}$)
