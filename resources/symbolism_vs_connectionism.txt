@@ -1,0 +1,82 @@
+Symbolism vs Connectionism
+    - 1. Definition: Paradigms (top-down vs bottom-up)
+        - Symbolism: Ohne Daten; explizite Regeln implementieren; transparent
+        - Connectionism: Mit Daten; black-box
+        - paradigm meint WIE wird es gebaut; aber wenn einmal gebaut ist gibt es keine Unterscheidung
+    - examples
+    - hybrid approaches
+    
+    -> The human brain consists of neurons; it doesn't need to be implemented. So what is the discussion about (definitions aren't applicable, as it hasn't been built by an architect)?
+    - (shift from paradigms to architectures; Marucs argues the brain employs some sort of symbol manipulation implemented in neural networks)
+    
+    - 2. Definition: Architectures (specifically neural nets)
+    	- Implicit definition by properties of the architectures
+    		- properties themself are a bit blurry (no real definition to measure these properties)
+        - neuro-symbolic hybrid architectures:
+            - architecture uses abstraction (can be used to implement higher reasoning)
+            - can employ sub architectures (internal representations can be used)
+                -> different sub architectures are used for different tasks
+            - variables are encoded in a small set of neurons
+            - network needs representation of symbols on which to apply rules on
+            - fewer connections
+        - pure connectionism:
+            - one big black box
+            - no dividing into smaller sub-models
+            - variables are encoded by the entire network (or a big part of it); distributed representation
+            - many connections (like fully connected)
+
+
+
+
+
+
+Symbolism vs Connectionism
+    - 1. Definition: Paradigms (top-down vs bottom-up)
+        - Symbolism: Ohne Daten; explizite Regeln implementieren; transparent
+        - Connectionism: Mit Daten; black-box
+        - paradigm meint WIE wird es gebaut; aber wenn einmal gebaut ist gibt es keine Unterscheidung
+    - examples
+    - hybrid approaches
+    
+    -> The human brain consists of neurons; it doesn't need to be implemented. So what is the discussion about (definitions aren't applicable, as it hasn't been built by an architect)?
+    - (shift from paradigms to architectures; Marucs argues the brain employs some sort of symbol manipulation implemented in neural networks; The argument is that the brain's connectionist hardware has evolved to create a higher, emergent level of symbolic processing)
+
+2. Definition (mainly associated architectures):
+Symbolism “=” Computer program operating on bits implementing a logic engine
+Connectionism “=” Neural networks
+
+-> Still not applicable to the human brain, which obviously consists of neurons forming a neural network
+    
+    - 3. Definition: Architectures (specifically neural nets)
+        - Implicit definition by properties of the architectures
+            - properties themself are a bit blurry (no real definition to measure these properties)
+	idea for explanation: any arch. has both some level of connectionism and symbolism, but they are not mutually exclusive.
+        - neuro-symbolic hybrid architectures:
+            - architecture uses abstraction (can be used to implement higher reasoning)
+            - can employ sub architectures (internal representations can be used) = modularity
+                -> different sub architectures are used for different tasks
+            - variables are encoded in a small set of neurons of the total neuron in the network (= localist representation: many variables imply smaller neurons which encode them)
+            - network needs representation of symbols on which to apply rules on
+            - fewer connections
+	- Stores knowledge both implicitly (in the neural net's weights) and explicitly (in a symbolic knowledge base with human-readable facts and rules)
+        - pure connectionism:
+            - one big black box (monolithic, end-to-end models)
+            - no (or barely any) dividing into smaller sub-models
+            - variables are encoded by the entire network (or a big part of it); distributed representation
+            - many connections (like fully connected)
+- pure conn. and heavy symbolic is a spectrum
+	- on the neuro-symbolic hybrid end: universal computer with logic engine implemented by a neural network
+	- on the pure connectionism end: fully-connected MLP with many hidden neurons and layers
+
+
+Vortrag Inhalte
+Definition
+Integration of the chapter and the paper
+Kolomogorov complexity (apply to feedforward <-> recurrent NN)
+Discussion about my big cock
+
+
+Main Claims
+Feedforward networks are more “pure connectionistic”, and are hence not well suited for modelling the human brain..
+can be argued by Kolomogorov complexity
+

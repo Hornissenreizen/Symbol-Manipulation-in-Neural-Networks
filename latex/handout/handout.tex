@@ -1,0 +1,135 @@
+\documentclass{article}
+
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amsmath}  % For better mathematical typesetting
+\usepackage{amsthm}   % For proof environments and theorems
+\usepackage{amssymb}  % For additional mathematical symbols
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+% \usetikzlibrary{positioning}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{pgfplots}
+
+
+% GLOBAL FORMATTING CHANGES
+\setlength{\parindent}{0pt}        % No paragraph indentation
+\setlength{\parskip}{1em}          % Space between paragraphs
+
+% Define theorem style
+\theoremstyle{plain}
+\newtheorem{axiom}{Axiom}[section]
+\newtheorem{premise}{Premise}[section]
+\newtheorem{conclusion}{Conclusion}[section]
+\newtheorem{disputation}{Disputation}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}{Corollary}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{hypothesis}{Hypothesis}[section]
+
+
+% Extra spacing before and after theorem environments
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=12pt plus 2pt minus 2pt
+  \thm@postskip=12pt plus 2pt minus 2pt
+}
+\makeatother
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+\widowpenalties 1 10000
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes} % Recommended for biblatex
+
+% Use the biblatex package for managing citations
+% backend=biber is the modern backend
+% style=authoryear is a common citation style (e.g., "Vaswani et al. 2017")
+\usepackage[backend=biber, style=authoryear]{biblatex}
+
+% Tell biblatex where to find your bibliography file
+\addbibresource{references.bib}
+
+
+\title{Relations between Variables}
+\author{Jonas Peters, Philipp Haack}
+
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+In chapter 3 \emph{Relations between Variables} of the book \emph{The Algebraic Mind} by \textcite{marcus2001algebraic}, the author analyzes to what extent we can implement \emph{algebraic rules} with neural networks, specifically \emph{multilayer perceptrons}.
+
+An algebraic rule is a formal definition to compute operations such as multiplying two numbers, or even constructing past tense of verbs, as it includes appending \texttt{-ed} to the verb stem.
+
+One important aspect of these algebraic rules is that we humans seem to be able to freely generalize these operations. For example, you can calculate $42 \cdot 9$ despite never having encountered this exact arithmetic task before, and you can create novel sentences which are syntactically correct and semantically meaningful.
+
+The discussion in Marcus's book comprises two aspects: First, there is the question of how the human mind is capable of performing tasks like cognition, language, and learning. Second, he argues which architectures he believes are most suited for specific tasks, and what properties these neural networks should have. The hope is that advancements in one area facilitates progress in the other.
+
+
+\section*{Line of Argument}
+In the presentation, we will thoroughly analyze Marcus's line of argument. In order to give you a quick overview, we will introduce you to his main arguments.
+
+First, he claims that many functions we humans can compute are one-to-one mappings. Marcus refers to them as \emph{universally quantified one-to-one mappings}, or \emph{UQOTOM} for short. One important aspect of these mappings is \emph{injectivity}, i.e. no two distinct inputs map to the same output. This includes functions like adding by one, forming simple past of verbs, or even the identity function which just returns back the input.
+
+To Marcus's mind, the models ability to represent and learn these UQOTOM is a central aspect of the models capability to implement algebraic rules, since injectivity enforces the model to generalize and not rely on memorization. Based on this premise, he argues that MLPs that are trained by \emph{backpropagation} are insufficient for generalizing UQOTOM beyond their training space.
+
+He proposes a solution for enforcing MLPs to learn UQOTOM: Using a single input node and only linear activations. This way, the network can only learn a linear mapping (or map everything to zero). However, having multiple input nodes remains a challenge. Thus, he argues that we should focus on using \emph{registers} instead, and how to implement and coordinate elementary instructions on them.
+
+
+\section*{Contemporary Language Models}
+As Marcus released his book in 2001, we can evaluate his claims in hindsight. Are multiple-nodes-per-variable models insufficient for learning UQOTOM, and thus fail to generalize outside their training space? Furthermore, Marcus argues that instead of employing fully connected MLPs, it is beneficial to use an architecture tailored towards the specific problem, and to even encode some higher order logic in that architecture. Lastly, he advocates the use of registers for dynamic computations.
+
+In the recent paper \emph{Attention Is All You Need} by \textcite{vaswani2017attention}, the authors introduced a new neural network architecture called \emph{Transformer} to process human language. This technology now serves as the foundational architecture for the large language models that power virtually all modern AI systems, from ChatGPT to Google's Gemini.
+
+We will give a high level overview of their functionality without going into detail. This allows us to assess Marcus claims based on successful contemporary research.
+
+
+\section*{Discussion}
+We will discuss the validity of the arguments made by Marcus's, and to what extent alternative conclusions are possible. Furthermore, we also discuss some open ended questions regarding the debate \emph{symbolism vs connectionism}. Some questions might be:
+\begin{itemize}
+    \item Should we assess the models capability to generalize algebraic rules by its ability to learn UQOTOM?
+    \item In what ways do contemporary Transformer models embody connectionist principles, and in what ways do their capabilities resemble those of symbolic systems?
+    \item Does the recent success of connectionist models challenge the role of symbolic models in future AI research?
+    % \item Does the success of connectionism suggest that symbolic reasoning might be an emergent property of complex systems, rather than a foundational requirement?
+\end{itemize}
+
+\printbibliography[title={References}]
+\end{document}

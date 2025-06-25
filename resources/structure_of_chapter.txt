@@ -1,0 +1,126 @@
+Structure
+
+- Introduction
+	- Human Brain <-> Models of human tasks (esp. cognition/ language)
+	- Does the brain use operations over variables <-> should our models use operations over variables
+
+	- MLPs
+		- very common architecture (deep learning)
+		- claim: not well suited for most tasks (or at least have to be crafted very intentionally)
+
+- UQOTOM
+	- Important subtasks of human cognition
+	-	"But UQOTOM are especially important to the argu-
+		ments that follow because they are functions in which every new in-
+		put has a new output. Because free generalization of UQOTOM would
+		preclude memorization, evidence that people (or other organisms) can
+		freely generalize UQOTOM would be particularly strong evidence in
+		support of the thesis that people (or other organisms) can perform op-
+		erations over variables."
+	-> basis for analyzing MLPs
+
+- MLPs
+	- one node per variable <-> multiple nodes per variable; distributed representation <-> localist representation
+	- one node per variable neuron with linear activation -> UQOTOM must be learned
+		- disagree: only true for one input neuron, but what if we had two? -> number of input neurons is decisive
+		- linear activation is necessary (see my script)
+	- multiple nodes per variable:
+		- can represent UQOTOM (and hence implement an algebraic rule), but don't have to
+		- we have to look how they learn (in order to understand how they generalize)
+		- claim:	"What I suggest in the next section is that their
+					flexibility [is mappings they can represent] is both an asset and a liability and that the liability is serious
+					enough to motivate a search for alternative ways in which abstract rela-
+					tionships between variables can be implemented in a neural (or neural-
+					like) substrate." p. 45
+
+- Training MLPs
+	- Backpropagation
+		- claim: can be used to learn UQOTOM, but "only if it sees that UQOTOM illustrated with respect to each possible input and output node." p. 45
+			-> multiple-nodes-per-variable cannot generalize UQOTOM:
+				"The fact that a multiple-nodes-per-variable multilayer perceptron
+				cannot generalize a UQOTOM function to a node that lies outside the
+				training space follows from the equations that define back-propagation." p. 47
+			- do example
+				-> no generalization "between" nodes
+
+		- bp is in some sense "local": edges are altered based local information -> interpretation: no global coordination
+		- input independence: input node always off -> emanating edges do not change
+			-> "independent of what happens to connections that emanate from other input nodes." p. 47
+		- output independence: weights feeding an output unit are adjusted based on the desired and actual output of only this single output neuron
+			-> if we think of the entire network feeding the output layer as fixed, i.e. converting the input to "quasi-input", then
+				"the network must always learn
+				the mapping between these quasi-input nodes and the output nodes.
+				Since this latter step is done independently, the mutual influence of the
+				output nodes on input-to-hidden-layer connections is not sufficient
+				to allow the network to generalize a UQOTOM between nodes." p. 48
+		
+		- 	"But in some cases it appears that humans can freely generalize from
+			restricted data, and in these cases many-nodes-per-variable multilayer
+			perceptrons that are trained by back-propagation are inappropriate.
+			This fact is worth pointing out because the literature on connectionist
+			models of cognitive science is filled with multiple-nodes-per-variable
+			multilayer perceptron models that are trained by back-propagation, and
+			many of those models are aimed at accounting for aspects of mental life
+			in which humans do appear to be able to freely generalize from incom-
+			plete input data." p. 49
+
+- Marcus' proposed solution
+	- 	"In general, what is required is a system that has five properties. First,
+		the system must have a way to distinguish variables from instances,
+		analogous to the way mathematics textbooks set variables in italic type
+		(x) and constants in bold type (AB). Second, the system must have a way
+		to represent abstract relationships between variables, analogous to an
+		equation like y = x + 2. Third, the system must have a way to bind a
+		particular instance to a given variable, just as the variable x may be
+		assigned the value 7. Fourth, the system must have a way to apply op-
+		erations to arbitrary instances of variables—for example, an addition
+		operation must be able to take any two numbers as input, a copying
+		operation must be able to copy any input, or a concatenation operation
+		must be able to combine any two inputs. Finally, the system must have a
+		way to extract relationships between variables on the basis of training
+		examples." p. 51
+
+		- "model in which a single input node connects to a single output node (with a linear activation function)" p. 51 meets these criteria
+		-> model is too simple: "What about the more complex model in which variables are repre-
+			sented by sets of nodes? Instances are again represented by activation
+			values; the difference is that only some sets of connection weights im-
+			plement operations that apply uniformly to all possible instances. Taken in
+			conjunction with a learning algorithm such as back-propagation, this is
+			not a good thing, for as we saw, UQOTOM are not generalized outside
+			the training space." p. 51f
+			- maybe we should use a different encoding (than having a set of nodes representing the initialization of a variable)
+				- conjunctive coding
+					- claim: "But the brain must rely on other techniques for variable binding as
+						well. Conjunctive codes do not naturally allow for the representation of
+						binding between a variable and a novel instance." p. 52
+				- tensor products
+					- claim: "Nonetheless, despite these advantages, I suggest in chapter 4
+						that tensor products are not plausible as an account of how we represent
+						recursively structured representations." p. 54
+
+				- solution: registers (but that is not an encoding scheme?!)
+					- claim: "The bindings that are created are all en-
+						tirely transitory, commonly taken to be constructed as the consequence
+						of some current input to the system. One also needs a way to encode
+						more permanently bindings between variables and instances." p. 54
+					- further claims see pp.
+					- interpretation: registers are only useful for recurrent structures (or else we couldn't read/ modify multiple times)
+				
+				- alternative: temporal synchrony (not important)
+
+- Summary
+	- 	"In this section, I have suggested that a system of registers, implemented
+		either intracellularly or intercellularly, can serve as a substrate for repre-
+		senting variable bindings. But even if I am right, and even if we knew
+		what kind of neural substrate supported registers, we would be far from
+		understanding how relationships between abstract variables are repre-
+		sented and generalized." p. 58
+	- further claims see pp.
+	- 	"In any case, even though we are a long way from being able to say what
+		the basic instructions might be and further from being able to say how
+		they are combined, we are in a position to begin. What I have shown thus
+		far in this chapter is that the fusion of vector coding and localist training
+		algorithms is not enough to account for free generalizations." p. 58
+
+- Case studies
+	- we could include simple past models
