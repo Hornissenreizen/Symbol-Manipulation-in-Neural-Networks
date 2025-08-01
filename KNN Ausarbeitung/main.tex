@@ -1,0 +1,123 @@
+\documentclass{article}
+
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amsmath}  % For better mathematical typesetting
+\usepackage{amsthm}   % For proof environments and theorems
+\usepackage{amssymb}  % For additional mathematical symbols
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=blue]{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+% \usetikzlibrary{positioning}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{pgfplots}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+
+\newtcolorbox{citecallout}[1][]{ % [1] = optional parameters
+  colback=green!5,
+  colframe=green!40!black,
+  boxrule=0.5pt,
+  arc=4pt,
+  left=6pt,
+  right=6pt,
+  top=4pt,
+  bottom=4pt,
+  fonttitle=\bfseries,
+  title={#1}
+}
+
+\newtcolorbox{critique}{
+  colback=red!5,
+  colframe=red!50!black,
+  boxrule=0.5pt,
+  arc=4pt,
+  left=6pt,
+  right=6pt,
+  top=4pt,
+  bottom=4pt,
+  fonttitle=\bfseries,
+  title=Critique
+}
+
+
+% GLOBAL FORMATTING CHANGES
+\setlength{\parindent}{0pt}        % No paragraph indentation
+\setlength{\parskip}{1em}          % Space between paragraphs
+
+% Define theorem style
+\theoremstyle{plain}
+\newtheorem{axiom}{Axiom}[section]
+\newtheorem{premise}{Premise}[section]
+\newtheorem{conclusion}{Conclusion}[section]
+\newtheorem{disputation}{Disputation}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}{Corollary}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{hypothesis}{Hypothesis}[section]
+
+
+% Extra spacing before and after theorem environments
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=12pt plus 2pt minus 2pt
+  \thm@postskip=12pt plus 2pt minus 2pt
+}
+\makeatother
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+
+\widowpenalties 1 10000
+
+\title{Symbol Manipulation in Neural Networks}
+\author{Jonas Peters, Philipp Haack}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\newpage
+\subfile{chapters/introduction/sub.tex}
+
+% \newpage
+% \subfile{chapters/model_framework/sub.tex}
+
+% \newpage
+% \subfile{chapters/implementing_symbol_manipulation_in_mlps/sub.tex}
+
+\end{document}

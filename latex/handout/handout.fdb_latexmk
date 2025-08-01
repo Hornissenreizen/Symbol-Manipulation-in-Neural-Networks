@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber handout"] 1750851191.44292 "handout.bcf" "handout.bbl" "handout" 1750851762.68776 0
-  "handout.bcf" 1750851762.61131 108693 ddb704ce1c332f48350cef7270ffb2a5 "pdflatex"
-  "references.bib" 1750848819.61424 660 0a0303235f2b36caa3bcd9cc2398af74 ""
+["biber handout"] 1751533144.71393 "handout.bcf" "handout.bbl" "handout" 1751533444.49213 0
+  "handout.bcf" 1751533444.41318 108767 5abbbb33506ee6deba22acb41b5c373a "pdflatex"
+  "references.bib" 1751533109.51168 1064 eff53a3128eac78f6a9942c72778e629 ""
   (generated)
   "handout.bbl"
   "handout.blg"
   (rewritten before read)
-["pdflatex"] 1750851761.74953 "/home/jonas/Desktop/KNN Vortrag/latex/handout/handout.tex" "handout.pdf" "handout" 1750851762.68804 0
-  "/home/jonas/Desktop/KNN Vortrag/latex/handout/handout.tex" 1750851761.46032 7170 d110e96873d1c281d86ba11a3d401566 ""
+["pdflatex"] 1751533443.51491 "/home/jonas/Desktop/KNN Vortrag/latex/handout/handout.tex" "handout.pdf" "handout" 1751533444.49242 0
+  "/home/jonas/Desktop/KNN Vortrag/latex/handout/handout.tex" 1751533443.27519 8235 ba0a32f5df79af35ad202fb88c01bb1e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1734431872.38973 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1734431873.45473 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1734431879.03568 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -57,6 +57,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm" 1734431877.4897 848 068dd119e13b75777e62821af7d4f2a6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm" 1734431877.4897 848 26631fcb3e4cb6757598b9cda7967b63 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm" 1734431877.4897 848 6125cdd3627e68d3db8013b98e587508 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1734431879.95068 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1734431879.95068 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1734431879.95268 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1734431879.95568 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -269,11 +270,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734431864.2608 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734431864.3988 3343776 2b14423543ae36c58e6a97232fe20f3b ""
   "/usr/local/texlive/2024/texmf.cnf" 1734431864.4218 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "handout.aux" 1750851762.61031 689 c928c12a1e6f000b458582fe75f0786d "pdflatex"
-  "handout.bbl" 1750851192.21957 5072 bbd22d4bc355d24e54f169090f5a601b "biber handout"
-  "handout.out" 1750851762.47231 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "handout.run.xml" 1750851762.61231 2332 ee6f7cf4fc83e7ae26d155c6e2b058ae "pdflatex"
-  "handout.tex" 1750851761.46032 7170 d110e96873d1c281d86ba11a3d401566 ""
+  "handout.aux" 1751533444.41218 893 42f49d900bfab8bc1486598aa3d6fcaa "pdflatex"
+  "handout.bbl" 1751533145.56138 7570 d4a00f2e26818f768ec47b391bdc9a3c "biber handout"
+  "handout.out" 1751533444.26418 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "handout.run.xml" 1751533444.41418 2332 ee6f7cf4fc83e7ae26d155c6e2b058ae "pdflatex"
+  "handout.tex" 1751533443.27519 8235 ba0a32f5df79af35ad202fb88c01bb1e ""
   (generated)
   "handout.aux"
   "handout.bcf"

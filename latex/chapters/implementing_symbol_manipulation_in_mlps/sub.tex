@@ -192,10 +192,10 @@
                     ylabel={$y$},
                     ]
                     \addplot[no marks,black,-] expression[domain=-3.3:3.3,samples=1000]{tanh(tanh(x) + tanh(-2 * x))} 
-                                node[pos=0,anchor=south west, yshift=0.4cm]{$y=f(f(x) + f(-2x))$}; 
+                                node[pos=0,anchor=south west, yshift=0.4cm]{$y=g(g(x) + g(-2x))$}; 
                 \end{axis}
             \end{tikzpicture}
-            \caption{Plot of the function $y=f(f(x) + f(-2x))$ with $f(x) \coloneqq \tanh(x)$.}
+            \caption{Plot of the function $y=g(g(x) + g(-2x))$ with $g(x) \coloneqq \tanh(x)$.}
             \label{fig:non_injective_function}
         \end{figure}
     \end{example}

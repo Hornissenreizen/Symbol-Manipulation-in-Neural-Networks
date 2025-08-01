@@ -101,35 +101,48 @@ An algebraic rule is a formal definition to compute operations such as multiplyi
 
 One important aspect of these algebraic rules is that we humans seem to be able to freely generalize these operations. For example, you can calculate $42 \cdot 9$ despite never having encountered this exact arithmetic task before, and you can create novel sentences which are syntactically correct and semantically meaningful.
 
-The discussion in Marcus's book comprises two aspects: First, there is the question of how the human mind is capable of performing tasks like cognition, language, and learning. Second, he argues which architectures he believes are most suited for specific tasks, and what properties these neural networks should have. The hope is that advancements in one area facilitates progress in the other.
+The discussion in Marcus' book comprises two aspects: First, there is the question of how the human mind is capable of performing tasks like cognition, language, and learning. Second, he argues which architectures he believes are most suited for specific tasks, and what properties these neural networks should have. The hope is that advancements in one area facilitates progress in the other.
 
-
+\pagebreak
 \section*{Line of Argument}
-In the presentation, we will thoroughly analyze Marcus's line of argument. In order to give you a quick overview, we will introduce you to his main arguments.
+In the presentation, we will thoroughly analyze Marcus' line of argument. In order to give you a quick overview, we will introduce you to his main arguments.
 
 First, he claims that many functions we humans can compute are one-to-one mappings. Marcus refers to them as \emph{universally quantified one-to-one mappings}, or \emph{UQOTOM} for short. One important aspect of these mappings is \emph{injectivity}, i.e. no two distinct inputs map to the same output. This includes functions like adding by one, forming simple past of verbs, or even the identity function which just returns back the input.
 
-To Marcus's mind, the models ability to represent and learn these UQOTOM is a central aspect of the models capability to implement algebraic rules, since injectivity enforces the model to generalize and not rely on memorization. Based on this premise, he argues that MLPs that are trained by \emph{backpropagation} are insufficient for generalizing UQOTOM beyond their training space.
+To Marcus' mind, the models ability to represent and learn these UQOTOM is a central aspect of the models capability to implement algebraic rules, since injectivity enforces the model to generalize and not rely on memorization. Based on this premise, he argues that MLPs that are trained by \emph{backpropagation} are insufficient for generalizing UQOTOM beyond their training space.
 
 He proposes a solution for enforcing MLPs to learn UQOTOM: Using a single input node and only linear activations. This way, the network can only learn a linear mapping (or map everything to zero). However, having multiple input nodes remains a challenge. Thus, he argues that we should focus on using \emph{registers} instead, and how to implement and coordinate elementary instructions on them.
 
+\subsection*{Marcus' argument in a nutshell}
+\begin{itemize}
+  \item \textbf{Premise}: Many algebraic rules are UQOTOM
+  \item \textbf{Premise}: Humans can learn/ generalize these rules, so our models should too
+  \item \textbf{Conclusion}: Models should be able to represent and learn UQOTOM (even with restricted training data)
+  \item \textbf{Claim}: MLPs don’t generalize UQOTOM well outside the training space (based on observation, argued via training independence)
+  \item \textbf{Conclusion}: Vanilla MLPs are not well suited for tasks that require a high amount of symbol manipulation
+  \item \textbf{Suggestion}: Motivated by computer architecture and supported by case studies, he suggests the use of registers
+\end{itemize}
+
 
 \section*{Contemporary Language Models}
-As Marcus released his book in 2001, we can evaluate his claims in hindsight. Are multiple-nodes-per-variable models insufficient for learning UQOTOM, and thus fail to generalize outside their training space? Furthermore, Marcus argues that instead of employing fully connected MLPs, it is beneficial to use an architecture tailored towards the specific problem, and to even encode some higher order logic in that architecture. Lastly, he advocates the use of registers for dynamic computations.
+As Marcus released his book in 2001, we can evaluate his claims in hindsight. Are feedforward networks really fundamentally flawed when it comes to symbol manipulation tasks? To what extent do successful models encode higher order logic in their architecture, and do they use some kind of registers?
+
+% Are multiple-nodes-per-variable models insufficient for learning UQOTOM, and thus fail to generalize outside their training space? Furthermore, Marcus argues that instead of employing fully connected MLPs, it is beneficial to use an architecture tailored towards the specific problem, and to even encode some higher order logic in that architecture. Lastly, he advocates the use of registers for dynamic computations.
 
 In the recent paper \emph{Attention Is All You Need} by \textcite{vaswani2017attention}, the authors introduced a new neural network architecture called \emph{Transformer} to process human language. This technology now serves as the foundational architecture for the large language models that power virtually all modern AI systems, from ChatGPT to Google's Gemini.
 
-We will give a high level overview of their functionality without going into detail. This allows us to assess Marcus claims based on successful contemporary research.
+We will give a high level overview of their functionality without going into detail. This allows us to assess Marcus claims based on contemporary research. To this end, we introduce the paper \emph{The Illusion of Thinking} by \textcite{shojaee2025illusion}.
 
 
 \section*{Discussion}
-We will discuss the validity of the arguments made by Marcus's, and to what extent alternative conclusions are possible. Furthermore, we also discuss some open ended questions regarding the debate \emph{symbolism vs connectionism}. Some questions might be:
+We will discuss the validity of the arguments made by Marcus', and to what extent alternative conclusions are possible. Furthermore, we also discuss some open ended questions regarding the debate \emph{symbolism vs connectionism}. Some questions might be:
 \begin{itemize}
     \item Should we assess the models capability to generalize algebraic rules by its ability to learn UQOTOM?
-    \item In what ways do contemporary Transformer models embody connectionist principles, and in what ways do their capabilities resemble those of symbolic systems?
+    % \item In what ways do contemporary Transformer models embody connectionist principles, and in what ways do their capabilities resemble those of symbolic systems?
     \item Does the recent success of connectionist models challenge the role of symbolic models in future AI research?
     % \item Does the success of connectionism suggest that symbolic reasoning might be an emergent property of complex systems, rather than a foundational requirement?
 \end{itemize}
+
 
 \printbibliography[title={References}]
 \end{document}

@@ -1,0 +1,39 @@
+critique
+	- humans tend to generalize UQOTOM: counter example:
+		- quadratic function
+			- 1 -> 1; -2 -> 4; 3 -> 9
+			- -1 -> ?
+		- addition
+			- (1, 3) -> 4; (4, 2) -> 6; (0, 5) -> 5
+			- (2, 2) -> ?
+	
+	- learning/ representing UQOTOM as a measure: if a mapping is truly one-to-one, then there probably exists a symoblic definition, just like all our examples -> MLPs are intended for extensional tasks (= mappings defined not by a definition, but by their input output pairs) where there is no precise definition
+	
+	- input independence is very specific, when does it ever happen that the input node is always off? We could fix it by mapping the input beforehand.
+	
+	- output independence: why should the output nodes coordinate together, when the only job of one specific output node is to predict only its activation based on the net input
+	
+	-> other suggested problem of MLP: The structure has a priori encoding of position: when the net is trained on "a cat on the table", it might have just as well be trained on "on a table the cat"
+		-> that is why we use convolutional layers for image related tasks
+		- organizes the pixel values into rectangular sub grids
+	-> Also, there is no reuse of parameters. This, however, might be useful if the tasks has a certain shift invariance property, and it would have a more "symbol manipulation" functionality
+		- CNN reuses parameters -> idea: it doesn't matter where certain features are in the image
+		
+	- the talk about different encodings is not really necessary; the idea of deep learning is to find a better encoding for the task at hand -> hard to find a priori
+		- of course different encoding may have different behavior when learning. However, it should be clear that there is no "magic encoding that will always learn UQOTOM"
+	
+	- the conclusion for registers is rather unmotivated. He also doesn't really specify how they are used: only for permanent information storage, or dynamic memory which can be operated upon
+		-> if only permanent storage, information can be stored in weights (imagine one source node, connected to n other nodes by weight w_i. When the source node becomes activated, all the emanating nodes will have an activation based on the weight w_i). So it is really hard to say whether a neural network stores information or not, and why should it use a representation that we humans think is intuitive?
+		-> if for dynamic storage and operation, it is like a huge jump from MLP to this proposed architecture, as changing values implies a recurrent system. It makes intuitive sense that such registers are useful, as computers operate in similar manner, but the only argument he gives is that he believes they are necessary and the other methodes are insufficient. Maybe there are other alternatives not yet discovered.
+
+
+
+Other things:
+	- no clear distinction between engineering architectural design and philosophical assumptions about the human brain (probably he talks about the former). If the latter: everything makes no sense, he would assume that humans would have to "train" everytime they make a prediction.
+	- bp local: very unprecise, what does it actually mean
+	- MLP can learn UQOTOM but only when presented the entire domain: It should be obvious that we either have to encode knowledge about the task in the architecture or learn on the entire domain, or how else should the network "know" which generalization we humans prefer
+	- the entire talk with "multiple-nodes per variable" is rather confusing. He makes no meaningful claims about them.
+	- the 5 properties are very vague
+	
+	- literally everything can be criticized
+	

@@ -51,6 +51,67 @@
       \field{title}{The algebraic mind: Integrating connectionism and cognitive science}
       \field{year}{2001}
     \endentry
+    \entry{shojaee2025illusion}{misc}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8c207b4760c6828687478a02fa4a8d4d}{%
+           family={Shojaee},
+           familyi={S\bibinitperiod},
+           given={Parshin},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13dd97a3ef83cf577085ae35cd801852}{%
+           family={Mirzadeh},
+           familyi={M\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86fa7ba7f338beb9d29c698831e68595}{%
+           family={Alizadeh},
+           familyi={A\bibinitperiod},
+           given={Keivan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd423f503f70b4ee8c702baa1677fbef}{%
+           family={Horton},
+           familyi={H\bibinitperiod},
+           given={Maxwell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02404a92b0be3f52ec5ac08e41c13445}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Samy},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec062944682ce19fe2e0ca6c0405cfe0}{%
+           family={Farajtabar},
+           familyi={F\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36974d29e1fc417a744933f4a5e6b0e3}
+      \strng{fullhash}{4140b54f056c59f98808b010d3298371}
+      \strng{fullhashraw}{4140b54f056c59f98808b010d3298371}
+      \strng{bibnamehash}{36974d29e1fc417a744933f4a5e6b0e3}
+      \strng{authorbibnamehash}{36974d29e1fc417a744933f4a5e6b0e3}
+      \strng{authornamehash}{36974d29e1fc417a744933f4a5e6b0e3}
+      \strng{authorfullhash}{4140b54f056c59f98808b010d3298371}
+      \strng{authorfullhashraw}{4140b54f056c59f98808b010d3298371}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{{T}he {I}llusion of {T}hinking: {U}nderstanding the {S}trengths and {L}imitations of {R}easoning {M}odels via the {L}ens of {P}roblem {C}omplexity}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2506.06941
+      \endverb
+    \endentry
     \entry{vaswani2017attention}{inproceedings}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
