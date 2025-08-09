@@ -1,4 +1,17 @@
-\documentclass{article}
+\documentclass[12pt, a4paper, oneside, openright]{scrreprt}
+
+% LOAD PACKAGES
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes} % Recommended for biblatex
+
+% SETUP BIBLATEX FOR APA 7TH EDITION
+% 'biber' is the modern backend. 'apa' is the style.
+\usepackage[backend=biber, style=apa]{biblatex}
+
+% ADD YOUR BIBLIOGRAPHY FILE
+% Replace 'references.bib' if you named your file differently.
+\addbibresource{references.bib}
 
 \usepackage{subfiles}
 \usepackage{graphicx}
@@ -33,7 +46,9 @@
   top=4pt,
   bottom=4pt,
   fonttitle=\bfseries,
-  title={#1}
+  title={#1},
+  before skip=16pt, %<-- Space above the box
+  after skip=16pt   %<-- Space below the box
 }
 
 \newtcolorbox{critique}{
@@ -46,7 +61,9 @@
   top=4pt,
   bottom=4pt,
   fonttitle=\bfseries,
-  title=Critique
+  title=Critique,
+  before skip=16pt, %<-- Space above the box
+  after skip=16pt   %<-- Space below the box
 }
 
 
@@ -69,6 +86,7 @@
 \newtheorem{example}{Example}[section]
 \newtheorem{remark}{Remark}[section]
 \newtheorem{hypothesis}{Hypothesis}[section]
+\newtheorem{observation}{Observation}[section]
 
 
 % Extra spacing before and after theorem environments
@@ -120,4 +138,5 @@
 % \newpage
 % \subfile{chapters/implementing_symbol_manipulation_in_mlps/sub.tex}
 
+\printbibliography
 \end{document}

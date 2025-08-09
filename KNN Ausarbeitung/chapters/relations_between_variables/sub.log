@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  7 AUG 2025 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  9 AUG 2025 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/introduction/sub.tex"
-(/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/introduction/sub.tex
+**"/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex"
+(/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -12,7 +12,7 @@ Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
 Preamble taken from file `../../main.tex'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-) (chapters/introduction/../../main.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrreprt.cls
+) (chapters/relations_between_variables/../../main.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2024/10/24 v3.43 KOMA-Script document class (report)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -1106,6 +1106,7 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
 \c@example=\count507
 \c@remark=\count508
 \c@hypothesis=\count509
+\c@observation=\count510
  (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )))
@@ -1113,7 +1114,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (chapters/introduction/sub.aux)
+ (chapters/relations_between_variables/sub.aux)
 \openout1 = `sub.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1174,21 +1175,21 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'sub.bbl' found.
- (chapters/introduction/sub.bbl)
+ (chapters/relations_between_variables/sub.bbl)
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count510
+\scratchcounter=\count511
 \scratchdimen=\dimen301
 \scratchbox=\box88
-\nofMPsegments=\count511
-\nofMParguments=\count512
+\nofMPsegments=\count512
+\nofMParguments=\count513
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count513
+\MPscratchCnt=\count514
 \MPscratchDim=\dimen302
-\MPnumerator=\count514
-\makeMPintoPDFobject=\count515
+\MPnumerator=\count515
+\makeMPintoPDFobject=\count516
 \everyMPtoPDFconversion=\toks59
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1197,7 +1198,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 3.
- (chapters/introduction/sub.out) (chapters/introduction/sub.out)
+ (chapters/relations_between_variables/sub.out) (chapters/relations_between_variables/sub.out)
 \@outlinefile=\write5
 \openout5 = `sub.out'.
 
@@ -1213,9 +1214,9 @@ Class scrreprt Info: loading recommended package `bookmark'.
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count516
+\BKM@id=\count517
 ))
-\c@lstlisting=\count517
+\c@lstlisting=\count518
 Package tocbasic Info: setting babel extension for `lol' on input line 3.
 \scr@dte@lstlisting@maxnumwidth=\skip102
 
@@ -1224,6 +1225,24 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
  on input line 3.
 
 chapter 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 17.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 17.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 17.
+
 
 
 [1
@@ -1232,11 +1251,33 @@ chapter 1.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2] (chapters/introduction/sub.aux)
+[2]
+
+[3]
+
+[4]
+
+[5]
+<chapters/relations_between_variables/network.png, id=97, 658.46pt x 663.47874pt>
+File: chapters/relations_between_variables/network.png Graphic file (type png)
+<use chapters/relations_between_variables/network.png>
+Package pdftex.def Info: chapters/relations_between_variables/network.png  used on input line 215.
+(pdftex.def)             Requested size: 224.06548pt x 225.77214pt.
+
+
+[6]
+
+[7 <./chapters/relations_between_variables/network.png>]
+
+[8] (chapters/relations_between_variables/sub.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `sub.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'sub.run.xml'.
@@ -1244,24 +1285,21 @@ Package logreq Info: Writing requests to 'sub.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51803 strings out of 473330
- 1194193 string characters out of 5719768
- 2365127 words of memory out of 5000000
- 74201 multiletter control sequences out of 15000+600000
- 559916 words of font info for 42 fonts, out of 8000000 for 9000
+ 52540 strings out of 473330
+ 1213289 string characters out of 5719768
+ 2374665 words of memory out of 5000000
+ 74879 multiletter control sequences out of 15000+600000
+ 568419 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,7n,124p,11021b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,124p,11036b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@marcus_algebraic_mind} has been referenced but does not exist, replaced by a fixed one
 
-
-pdfTeX warning (dest): name{cite.0@marcus_black_box} has been referenced but does not exist, replaced by a fixed one
-
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on chapters/introduction/sub.pdf (2 pages, 59273 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on chapters/relations_between_variables/sub.pdf (8 pages, 200129 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

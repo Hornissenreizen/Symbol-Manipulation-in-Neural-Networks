@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{marcus_black_box}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=199868cb9a5ee49454615e31ec8cc1ae}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{fullhash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{fullhashraw}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{bibnamehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authorbibnamehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authornamehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authorfullhash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authorfullhashraw}{199868cb9a5ee49454615e31ec8cc1ae}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Generative AI's crippling and widespread failure to induce robust models of the world}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
+      \endverb
+      \verb{url}
+      \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
+      \endverb
+    \endentry
+    \entry{marcus_algebraic_mind}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
+      \field{year}{2001}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{marcus_black_box}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=199868cb9a5ee49454615e31ec8cc1ae}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{fullhash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{fullhashraw}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{bibnamehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authorbibnamehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authornamehash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authorfullhash}{199868cb9a5ee49454615e31ec8cc1ae}
+      \strng{authorfullhashraw}{199868cb9a5ee49454615e31ec8cc1ae}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Generative AI's crippling and widespread failure to induce robust models of the world}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
+      \endverb
+      \verb{url}
+      \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
+      \endverb
+    \endentry
+    \entry{marcus_algebraic_mind}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
+      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
+      \field{year}{2001}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
