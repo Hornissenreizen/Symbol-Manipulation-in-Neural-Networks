@@ -244,4 +244,138 @@ He formalizes this failure of back-propagation to learn UQOTOMs by defining the 
     weights feeding output node k (assuming that nodes j and k are distinct).}" (Marcus, 2001, p. 47)
 \end{definition}
 
+\begin{critique}
+    Marcus' concept of input independence is very specific and is not really applicable for real world examples. When an input node is always set to zero in training, we could simply use a different encoding scheme. Marcus argues that for an input node that is always set to the same constant $v$, the network "does not learn anything about the relation between that
+    input node and the output, other than to always set the output node to value $v$" (Marcus 2001, p. 47).
+
+    This fact, however, is only based on empirical experiments, and is specific to the tested model architecture. What really happens is that the network won't use this node's value for inferring the output, but rather treats it as an adjustable bias for the layer it feeds into. This is not a flaw, but rather a property of the generic architectural design of MLPs.
+\end{critique}
+
+\begin{critique}
+    Similarly, output independence is just another property of MLPs which isn't necessarily a flaw. It is not the case that the network learns to predict each output node based on the input nodes independently, since the hidden layers are trained based on \emph{all} output nodes.
+    Marcus acknowledges this fact, he writes:
+
+    "This means not that there is never any dependence between output
+    nodes but that the only source of dependence between them is their common influence on the hidden nodes, which turns out not to be enough.
+    At best, the mutual influence of output nodes on input-to-hidden-
+    layer connections may under some circumstances lead to felicitous
+    encodings of the hidden nodes. We might think of such hidden units
+    as quasi-input nodes. The crucial point is that no matter how felicitous
+    the choice of quasi-input units may be, the network must always learn
+    the mapping between these quasi-input nodes and the output nodes.
+    Since this latter step is done independently, the mutual influence of the
+    output nodes on input-to-hidden-layer connections is not sufficient
+    to allow the network to generalize a UQOTOM between nodes." (Marcus 2001, p. 47 f.)
+
+    However, MLPs are not designed to generalize UQOTOMs, they are generic function approximators. Now, maybe this is exactly what Marcus criticizes, but how can we blame a generic model to not have an arbitrary bias, in this case that of UQOTOMs, when it is not designed for this purpose? When we want our model to have a specific bias, in this case to employ algebraic rules, we have to either learn the entire domain, or integrate domain specific knowledge into the architectural design (or else the model architecture wouldn't be generic).
+\end{critique}
+
+\section{Marcus' proposed Alternatives}
+He begins by stating five properties a successful model must fulfill:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 51]
+    In general, what is required is a system that has five properties. First,
+    the system must have a way to distinguish variables from instances,
+    analogous to the way mathematics textbooks set variables in italic type
+    ($x$) and constants in bold type ($\bf{AB}$). Second, the system must have a way
+    to represent abstract relationships between variables, analogous to an
+    equation like $y = x + 2$. Third, the system must have a way to bind a
+    particular instance to a given variable, just as the variable x may be
+    assigned the value 7. Fourth, the system must have a way to apply op-
+    erations to arbitrary instances of variables—for example, an addition
+    operation must be able to take any two numbers as input, a copying
+    operation must be able to copy any input, or a concatenation operation
+    must be able to combine any two inputs. Finally, the system must have a
+    way to extract relationships between variables on the basis of training
+    examples.
+\end{citecallout}
+
+\begin{critique}
+    These criteria are not really measurable. They seem to rather act as a guideline for designing a model architecture. The following claims by Marcus seem to be of a similar nature. Hence, we may not analyze them in great detail.
+\end{critique}
+
+\subsection{Encoding Schemes}
+Next in Marcus' line of argument, he presents different schemes to encode variables with input nodes. He wants to show that the inability of MLPs to learn UQOTOMs is fundamentally rooted in the architecture itself, and cannot easily be solved by different encoding schemes.
+
+First, he introduces \emph{conjunctive coding}.
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 52]
+    But the brain must rely on other techniques for variable binding as
+    well. Conjunctive codes do not naturally allow for the representation of
+    binding between a variable and a novel instance.
+\end{citecallout}
+
+According to Marcus \emph{tensor products} cannot solve all our problems as well:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 54]
+    Nonetheless, despite these advantages, I suggest in chapter 4
+    that tensor products are not plausible as an account of how we represent
+    recursively structured representations.
+\end{citecallout}
+
+Lastly, he mentions \emph{temporal synchrony}:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 57]
+    My own view is that temporal synchrony might well play a role in
+    some aspects of vision, such as grouping of parts of objects, but I have
+    doubts about whether it plays as important a role in cognition and language.
+\end{citecallout}
+
+\subsubsection{Registers}
+Marcus suggests the use of \emph{registers}. He writes:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 54]
+    A limitation of the binding schemes discussed so far is that none provides a way of storing a binding. The bindings that are created are all entirely transitory, commonly taken to be constructed as the consequence
+    of some current input to the system. One also needs a way to encode
+    more permanently bindings between variables and instances.
+\end{citecallout}
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 55]
+    Registers are central to digital computers; my suggestion is that registers are central to human cognition as well.
+\end{citecallout}
+
+He motivates this claim by providing biological possibilities to implement such structures:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 55]
+    A given neuron could, for
+    example, store values internally by modulating cell-internal gene expression. We know, for example, that cells have the sort of memory that
+    indicates their type (Rensberger, 1996); when a cell divides, its type of
+    memory is generally inherited by its offspring. These mechanisms, or
+    other mechanisms such as the reciprocal modulation of ion channels
+    (Holmes, 1998), could provide an intracellular basis for registers.
+\end{citecallout}
+
+Additionally, according to Marcus, registers could explain the phenomenon of \emph{rapidly updatable memory}, which describes how we humans are able to learn things on a single trail, like remembering where we parked out car.
+
+The brain would use these registers to perform basic operations on them:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 58]
+    My hunch
+    is that the brain contains a similar stock of basic instructions, each defined to operate over all possible values of registers.
+\end{citecallout}
+
+Marcus claims that this modus operandi would explain our ability to generalize algebraic rules:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 58]
+    But in some cases we manage to extract a relationship between
+    variables on the basis of training examples, without being given an explicit high-level description. Either way, when we learn a new function,
+    we are presumably choosing among ways of combining some set of
+    elementary instructions.
+\end{citecallout}
+
+
+
+
+Meta question:
+Learning vs. inference question
+-> he often refers to human capabilities:
+"Cases in which humans can freely generalize UQOTOM on the basis of
+restricted data are problematic for multiple-nodes-per-variable multi-
+layer perceptrons trained by back-propagation." (Marcus 2001, p. 50)
+
+Summary:
+
+Hit critique is valid, but it is obvious and explanations are too simple to infer any meaningful conclusions.
+
+The claims he made at the end are very bold and not really well argued. One can either believe them or not.
 \end{document}
