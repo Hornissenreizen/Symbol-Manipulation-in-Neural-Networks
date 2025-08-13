@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  7 AUG 2025 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  12 AUG 2025 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -662,7 +662,7 @@ File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -685,7 +685,7 @@ Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
 Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
@@ -1106,6 +1106,7 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
 \c@example=\count507
 \c@remark=\count508
 \c@hypothesis=\count509
+\c@observation=\count510
  (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )))
@@ -1179,16 +1180,16 @@ Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count510
+\scratchcounter=\count511
 \scratchdimen=\dimen301
 \scratchbox=\box88
-\nofMPsegments=\count511
-\nofMParguments=\count512
+\nofMPsegments=\count512
+\nofMParguments=\count513
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count513
+\MPscratchCnt=\count514
 \MPscratchDim=\dimen302
-\MPnumerator=\count514
-\makeMPintoPDFobject=\count515
+\MPnumerator=\count515
+\makeMPintoPDFobject=\count516
 \everyMPtoPDFconversion=\toks59
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1196,7 +1197,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 3.
+Package hyperref Info: Link coloring OFF on input line 3.
  (chapters/introduction/sub.out) (chapters/introduction/sub.out)
 \@outlinefile=\write5
 \openout5 = `sub.out'.
@@ -1213,9 +1214,9 @@ Class scrreprt Info: loading recommended package `bookmark'.
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count516
+\BKM@id=\count517
 ))
-\c@lstlisting=\count517
+\c@lstlisting=\count518
 Package tocbasic Info: setting babel extension for `lol' on input line 3.
 \scr@dte@lstlisting@maxnumwidth=\skip102
 
@@ -1244,10 +1245,10 @@ Package logreq Info: Writing requests to 'sub.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51803 strings out of 473330
- 1194193 string characters out of 5719768
- 2365127 words of memory out of 5000000
- 74201 multiletter control sequences out of 15000+600000
+ 51819 strings out of 473330
+ 1194435 string characters out of 5719768
+ 2364764 words of memory out of 5000000
+ 74217 multiletter control sequences out of 15000+600000
  559916 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,7n,124p,11021b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1255,13 +1256,13 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{cite.0@marcus_algebraic_mind} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{cite.0@marcus_black_box} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{cite.0@marcus_alphageometry} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on chapters/introduction/sub.pdf (2 pages, 59273 bytes).
+Output written on chapters/introduction/sub.pdf (2 pages, 59784 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3070,11 +3070,11 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">marcus_algebraic_mind</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">marcus_algebraic_mind</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">marcus_alphageometry</bcf:citekey>
     <bcf:citekey order="3" intorder="1">marcus_algebraic_mind</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">marcus_algebraic_mind</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">marcus_algebraic_mind</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">marcus_alphageometry</bcf:citekey>
     <bcf:citekey order="6" intorder="1">marcus_algebraic_mind</bcf:citekey>
     <bcf:citekey order="7" intorder="1">marcus_algebraic_mind</bcf:citekey>
     <bcf:citekey order="8" intorder="1">marcus_algebraic_mind</bcf:citekey>
@@ -3116,6 +3116,39 @@
     <bcf:citekey order="44" intorder="1">marcus_algebraic_mind</bcf:citekey>
     <bcf:citekey order="45" intorder="1">marcus_algebraic_mind</bcf:citekey>
     <bcf:citekey order="46" intorder="1">marcus_algebraic_mind</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">marcus_algebraic_mind</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">marcus_black_box</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">marcus_black_box</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">marcus_black_box</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">marcus_black_box</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">marcus_knockout_blow</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">marcus_knockout_blow</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">illusion-of-thinking</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">Trinh2024</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">marcus_alphageometry</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">marcus_alphageometry</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
@@ -3163,6 +3196,16 @@
                 type="entry"
                 sortingtemplatename="apa"
                 sortingnamekeytemplatename="apasortcite"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="0"
+                name="apa/global//global/global/global"
+                type="entry"
+                sortingtemplatename="apa"
+                sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
                 labelalphanametemplatename="global"

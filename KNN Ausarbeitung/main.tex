@@ -23,7 +23,7 @@
 \usepackage{stmaryrd}
 \usepackage{algorithm}
 \usepackage{algorithmic}
-\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=blue]{hyperref}
+\usepackage[colorlinks=false, linkcolor=black, urlcolor=blue, citecolor=blue, pdfborder={0 0 0}]{hyperref}
 \usepackage{listings}
 \usepackage{color}
 \usepackage{tikz}
@@ -48,7 +48,24 @@
   fonttitle=\bfseries,
   title={#1},
   before skip=16pt, %<-- Space above the box
-  after skip=16pt   %<-- Space below the box
+  after skip=16pt,   %<-- Space below the box
+  breakable
+}
+
+\newtcolorbox{newcite}[1][]{
+  colback=gray!5,
+  colframe=gray!50!black,
+  boxrule=0.5pt,
+  arc=4pt,
+  left=6pt,
+  right=6pt,
+  top=4pt,
+  bottom=4pt,
+  fonttitle=\bfseries,
+  title={#1},
+  before skip=16pt, %<-- Space above the box
+  after skip=16pt,   %<-- Space below the box
+  breakable
 }
 
 \newtcolorbox{critique}{
@@ -63,7 +80,8 @@
   fonttitle=\bfseries,
   title=Critique,
   before skip=16pt, %<-- Space above the box
-  after skip=16pt   %<-- Space below the box
+  after skip=16pt,   %<-- Space below the box
+  breakable
 }
 
 
@@ -122,21 +140,20 @@
 
 \widowpenalties 1 10000
 
-\title{Symbol Manipulation in Neural Networks}
+% \title{Symbol Manipulation in Neural Networks}
+\title{The Algebraic Mind Revisited: \\ \large From Classic Critique to the Modern AI Debate}
 \author{Jonas Peters, Philipp Haack}
+\date{\today}
 
 \begin{document}
 \maketitle
 \tableofcontents
 
-\newpage
 \subfile{chapters/introduction/sub.tex}
 
-% \newpage
-% \subfile{chapters/model_framework/sub.tex}
+\subfile{chapters/relations_between_variables/sub.tex}
 
-% \newpage
-% \subfile{chapters/implementing_symbol_manipulation_in_mlps/sub.tex}
+\subfile{chapters/contemporary_research/sub.tex}
 
 \printbibliography
 \end{document}

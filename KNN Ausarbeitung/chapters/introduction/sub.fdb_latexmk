@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber chapters/introduction/sub"] 1754564537.33605 "chapters/introduction/sub.bcf" "chapters/introduction/sub.bbl" "chapters/introduction/sub" 1754568766.05901 0
-  "chapters/introduction/sub.bcf" 1754568765.92867 133532 e8e05de5d975c2497629af8e9b42318b "pdflatex"
-  "references.bib" 1754564057.4467 604 b2d11a88394725458833358ff3f98669 ""
+["biber chapters/introduction/sub"] 1755010851.28504 "chapters/introduction/sub.bcf" "chapters/introduction/sub.bbl" "chapters/introduction/sub" 1755011043.24393 0
+  "chapters/introduction/sub.bcf" 1755011043.08523 133690 6d849d9e1c0d5dc62a82329befbe1567 "pdflatex"
+  "references.bib" 1755007204.37123 1967 804c8bf6cb5d6818f21653d2b599c388 ""
   (generated)
   "chapters/introduction/sub.bbl"
   "chapters/introduction/sub.blg"
   (rewritten before read)
-["pdflatex"] 1754568763.52481 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/introduction/sub.tex" "chapters/introduction/sub.pdf" "sub" 1754568766.0594 0
-  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/introduction/sub.tex" 1754568760.63103 2589 49b2640a444d9544d8323f1a53c2de32 ""
+["pdflatex"] 1755011040.52969 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/introduction/sub.tex" "chapters/introduction/sub.pdf" "sub" 1755011043.24436 0
+  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/introduction/sub.tex" 1755011040.28426 2739 0fb93a1068b7f1fc53e7aa5e2ea4a303 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -264,12 +264,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734705286 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734705385 3343776 7b550fb143c8844e093d81085ae33088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1734705281.41451 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "chapters/introduction/../../main.tex" 1754568718.1696 3295 9c148285b5bfee2dd3dbce976c1cd43c ""
-  "chapters/introduction/sub.aux" 1754568765.92467 1266 392ceadacdbf500354e2ff3f92e3887d "pdflatex"
-  "chapters/introduction/sub.bbl" 1754564538.65571 6376 25f315064d15ec80a9523d729303af45 "biber chapters/introduction/sub"
-  "chapters/introduction/sub.out" 1754568765.77472 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "chapters/introduction/sub.run.xml" 1754568765.9306 2420 e8d19b20c28a89a88f01df87cf7c565b "pdflatex"
-  "chapters/introduction/sub.tex" 1754568760.63103 2589 49b2640a444d9544d8323f1a53c2de32 ""
+  "chapters/introduction/../../main.tex" 1755005810.80233 3822 cb6ebef81f11fd20d133ce686b2df65d ""
+  "chapters/introduction/sub.aux" 1755011043.08023 1523 0e3ebcd071eb9dd9900d05aa9a678814 "pdflatex"
+  "chapters/introduction/sub.bbl" 1755010852.61614 6668 2f0ffa4690292adc4b4c660fedc442ca "biber chapters/introduction/sub"
+  "chapters/introduction/sub.out" 1755011042.89923 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "chapters/introduction/sub.run.xml" 1755011043.0874 2420 e8d19b20c28a89a88f01df87cf7c565b "pdflatex"
+  "chapters/introduction/sub.tex" 1755011040.28426 2739 0fb93a1068b7f1fc53e7aa5e2ea4a303 ""
   (generated)
   "chapters/introduction/sub.aux"
   "chapters/introduction/sub.bcf"

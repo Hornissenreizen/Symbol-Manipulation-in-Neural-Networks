@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber chapters/relations_between_variables/sub"] 1754737074.84158 "chapters/relations_between_variables/sub.bcf" "chapters/relations_between_variables/sub.bbl" "chapters/relations_between_variables/sub" 1754737330.36154 0
-  "chapters/relations_between_variables/sub.bcf" 1754737330.22108 134845 ead6273a731c4f3f8eb0f80598de6d5e "pdflatex"
-  "references.bib" 1754564057.4467 604 b2d11a88394725458833358ff3f98669 ""
+["biber chapters/relations_between_variables/sub"] 1755077469.72021 "chapters/relations_between_variables/sub.bcf" "chapters/relations_between_variables/sub.bbl" "chapters/relations_between_variables/sub" 1755077482.75803 0
+  "chapters/relations_between_variables/sub.bcf" 1755077482.61918 136847 d8dc2e9c454db5f11529ae3c178e32da "pdflatex"
+  "references.bib" 1755007204.37123 1967 804c8bf6cb5d6818f21653d2b599c388 ""
   (generated)
   "chapters/relations_between_variables/sub.bbl"
   "chapters/relations_between_variables/sub.blg"
   (rewritten before read)
-["pdflatex"] 1754737324.91544 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" "chapters/relations_between_variables/sub.pdf" "sub" 1754737330.36231 0
-  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" 1754737323.73146 13804 959d5a6b33a9f2d5681e47316dcbd9f9 ""
+["pdflatex"] 1755077476.92749 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" "chapters/relations_between_variables/sub.pdf" "sub" 1755077482.75844 0
+  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" 1755077463.64609 28199 67bd52566289f3735abb87adc82ca133 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -300,13 +300,13 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734705286 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734705385 3343776 7b550fb143c8844e093d81085ae33088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1734705281.41451 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "chapters/relations_between_variables/../../main.tex" 1754569666.57671 3524 675e429f59c99f42e785a2914b5b8529 ""
+  "chapters/relations_between_variables/../../main.tex" 1755076003.0578 3932 07a6a55b9ad0216f15cae1d1e390b7d8 ""
   "chapters/relations_between_variables/network.png" 1754733921.75229 90155 f4f17cc3f43d634c49193bb8c0b4b495 ""
-  "chapters/relations_between_variables/sub.aux" 1754737330.21608 6287 9d99f210a7c27f63c3aa5f351c99d60a "pdflatex"
-  "chapters/relations_between_variables/sub.bbl" 1754737076.11754 3354 82bc31404d96e2b9a9a5f967b3442d6a "biber chapters/relations_between_variables/sub"
-  "chapters/relations_between_variables/sub.out" 1754737327.3291 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "chapters/relations_between_variables/sub.run.xml" 1754737330.22261 2420 e8d19b20c28a89a88f01df87cf7c565b "pdflatex"
-  "chapters/relations_between_variables/sub.tex" 1754737323.73146 13804 959d5a6b33a9f2d5681e47316dcbd9f9 ""
+  "chapters/relations_between_variables/sub.aux" 1755077482.61218 11189 ae8bdfcb2567f09af35599846739bc6b "pdflatex"
+  "chapters/relations_between_variables/sub.bbl" 1755077471.09969 3354 82bc31404d96e2b9a9a5f967b3442d6a "biber chapters/relations_between_variables/sub"
+  "chapters/relations_between_variables/sub.out" 1755077479.38617 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "chapters/relations_between_variables/sub.run.xml" 1755077482.62138 2420 e8d19b20c28a89a88f01df87cf7c565b "pdflatex"
+  "chapters/relations_between_variables/sub.tex" 1755077463.64609 28199 67bd52566289f3735abb87adc82ca133 ""
   (generated)
   "chapters/relations_between_variables/sub.aux"
   "chapters/relations_between_variables/sub.bcf"

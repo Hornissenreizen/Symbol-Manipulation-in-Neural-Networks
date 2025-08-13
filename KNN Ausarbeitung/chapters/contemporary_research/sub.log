@@ -1,13 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  13 AUG 2025 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  13 AUG 2025 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/main.tex"
-(/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/main.tex
+**"/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/contemporary_research/sub.tex"
+(/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/contemporary_research/sub.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
-(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrreprt.cls
+(/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../../main.tex'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (chapters/contemporary_research/../../main.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2024/10/24 v3.43 KOMA-Script document class (report)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -463,9 +468,7 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -1106,43 +1109,43 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
 \c@observation=\count510
  (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
+)))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux)
-\openout1 = `main.aux'.
+ (chapters/contemporary_research/sub.aux)
+\openout1 = `sub.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-Package scrbase Info: activating english \abstractname on input line 148.
-Package scrbase Info: activating english \partname on input line 148.
-Package scrbase Info: activating english \chaptername on input line 148.
-Package scrbase Info: activating english \appendixname on input line 148.
-Package scrbase Info: activating english \figurename on input line 148.
-Package scrbase Info: activating english \tablename on input line 148.
-Package scrbase Info: activating english \contentsname on input line 148.
-Package scrbase Info: activating english \listfigurename on input line 148.
-Package scrbase Info: activating english \listtablename on input line 148.
-Package scrbase Info: activating english \bibname on input line 148.
-Package scrbase Info: activating english \indexname on input line 148.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+Package scrbase Info: activating english \abstractname on input line 3.
+Package scrbase Info: activating english \partname on input line 3.
+Package scrbase Info: activating english \chaptername on input line 3.
+Package scrbase Info: activating english \appendixname on input line 3.
+Package scrbase Info: activating english \figurename on input line 3.
+Package scrbase Info: activating english \tablename on input line 3.
+Package scrbase Info: activating english \contentsname on input line 3.
+Package scrbase Info: activating english \listfigurename on input line 3.
+Package scrbase Info: activating english \listtablename on input line 3.
+Package scrbase Info: activating english \bibname on input line 3.
+Package scrbase Info: activating english \indexname on input line 3.
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
@@ -1168,13 +1171,13 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout3 = `sub.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 148.
-Package biblatex Info: Reference segment=0 on input line 148.
+Package biblatex Info: ... file 'sub.bbl' found.
+ (chapters/contemporary_research/sub.bbl)
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count511
@@ -1194,10 +1197,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 148.
- (./main.out) (./main.out)
+Package hyperref Info: Link coloring OFF on input line 3.
+ (chapters/contemporary_research/sub.out) (chapters/contemporary_research/sub.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
+\openout5 = `sub.out'.
 
 Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           Using `bookmark' together with `hyperref' is recommended,
@@ -1206,7 +1209,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 148.
+(scrreprt)           before \begin{document} on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1214,113 +1217,34 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count517
 ))
 \c@lstlisting=\count518
-Package tocbasic Info: setting babel extension for `lol' on input line 148.
+Package tocbasic Info: setting babel extension for `lol' on input line 3.
 \scr@dte@lstlisting@maxnumwidth=\skip102
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 148.
+ on input line 3.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 150.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 150.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 150.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 150.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-
-LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
-(Font)              using `U/stmry/m/n' instead on input line 150.
-
+chapter 1.
 
 
 [1
 
 
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
- (./chapters/introduction/sub.tex
-
-[2
-
-
-]
-chapter 1.
-
-
-[3
-
-
-]) (./chapters/relations_between_variables/sub.tex
-
-[4]
-chapter 2.
-
-
-[5
-
-
-]
-
-[6]
-
-[7]
-
-[8]
-
-[9]
-<chapters/relations_between_variables/network.png, id=147, 658.46pt x 663.47874pt>
-File: chapters/relations_between_variables/network.png Graphic file (type png)
-<use chapters/relations_between_variables/network.png>
-Package pdftex.def Info: chapters/relations_between_variables/network.png  used on input line 229.
-(pdftex.def)             Requested size: 179.24963pt x 180.6096pt.
-
-
-[10]
-
-[11 <./chapters/relations_between_variables/network.png>]
-
-[12]
-
-[13]
-
-[14]
-
-[15]
-
-[16]) (./chapters/contemporary_research/sub.tex
-
-[17]
-chapter 3.
-
-
-[18
-
-
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<./chapters/contemporary_research/accuracy_at_complexity.png, id=215, 840.13875pt x 596.2275pt>
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<./chapters/contemporary_research/accuracy_at_complexity.png, id=62, 840.13875pt x 596.2275pt>
 File: ./chapters/contemporary_research/accuracy_at_complexity.png Graphic file (type png)
 <use ./chapters/contemporary_research/accuracy_at_complexity.png>
 Package pdftex.def Info: ./chapters/contemporary_research/accuracy_at_complexity.png  used on input line 36.
 (pdftex.def)             Requested size: 358.50612pt x 254.42592pt.
 
 
-[19 <./chapters/contemporary_research/accuracy_at_complexity.png>]
+[2 <./chapters/contemporary_research/accuracy_at_complexity.png>]
 
-[20]
+[3]
 
-[21]
-<chapters/contemporary_research/alphageometry.png, id=241, 1807.75375pt x 628.3475pt>
+[4]
+<chapters/contemporary_research/alphageometry.png, id=90, 1807.75375pt x 628.3475pt>
 File: chapters/contemporary_research/alphageometry.png Graphic file (type png)
 <use chapters/contemporary_research/alphageometry.png>
 Package pdftex.def Info: chapters/contemporary_research/alphageometry.png  used on input line 93.
@@ -1329,46 +1253,52 @@ Class scrreprt Info: Workaround for not recommended usage of \\ or
 (scrreprt)           \newlinein caption text  on input line 94.
 
 
-[22 <./chapters/contemporary_research/alphageometry.png>]
-chapter 4.
-)
-
-[23
+[5 <./chapters/contemporary_research/alphageometry.png>]
+chapter 2.
 
 
-]
-
-[24
+[6
 
 
-] (./main.aux)
+] (chapters/contemporary_research/sub.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `sub.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package logreq Info: Writing requests to 'sub.run.xml'.
+\openout1 = `sub.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52788 strings out of 473330
- 1218310 string characters out of 5719768
- 2376696 words of memory out of 5000000
- 75069 multiletter control sequences out of 15000+600000
- 573630 words of font info for 95 fonts, out of 8000000 for 9000
+ 51937 strings out of 473330
+ 1197448 string characters out of 5719768
+ 2367128 words of memory out of 5000000
+ 74321 multiletter control sequences out of 15000+600000
+ 560888 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,107p,10976b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (24 pages, 424078 bytes).
+ 128i,7n,124p,11030b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{cite.0@Trinh2024} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@marcus_alphageometry} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@marcus_knockout_blow} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@illusion-of-thinking} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@marcus_black_box} has been referenced but does not exist, replaced by a fixed one
+
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on chapters/contemporary_research/sub.pdf (6 pages, 244314 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

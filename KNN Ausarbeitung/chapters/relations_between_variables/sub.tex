@@ -17,7 +17,7 @@ Instead of considering all these functions of human cognition at once, Marcus fo
     A mapping $f: X \to Y$ is a UQOTOM if it is \emph{one-to-one} and \emph{universally quantified}. Universally quantified specifies that $f$ is defined for all $x \in X$, i.e. that $f$ is a valid function in the mathematical sense.
 \end{definition}
 
-Some important examples of UQOTOMs that Marcus is going to analyze are the identity function, and the simple past operation with produces the simple past of a verb. According to Marcus:
+Some important examples of UQOTOMs that Marcus is going to analyze are the identity function, and the simple past operation which produces the simple past of a verb. According to Marcus:
 
 \begin{citecallout}[\textcite{marcus_algebraic_mind}]
     I do not mean to suggest that UQOTOM are the only mappings
@@ -43,9 +43,12 @@ Furthermore, he specifies algebraic rules further and he writes:
 Most decisively, for Marcus, a UQOTOM isn't just a special type of function; it is the very implementation of an algebraic rule. He writes:
 
 \begin{citecallout}[\textcite{marcus_algebraic_mind}]
-    When such a network represents identity or some other UQOTOM,
-    it represents an abstract relationship between variables—which is to say
-    that such a network implements an algebraic rule.
+    \begin{premise}
+        \label{premise:uqotom_algebraic_rule}
+        When such a network represents identity or some other UQOTOM,
+        it represents an abstract relationship between variables—which is to say
+        that such a network implements an algebraic rule.
+    \end{premise}
 \end{citecallout}
 
 \begin{critique}
@@ -53,14 +56,17 @@ Most decisively, for Marcus, a UQOTOM isn't just a special type of function; it 
     \[
         f \text{ is a UQOTOM} \implies f \text{ implements an algebraic rule}
     \]
-    is too simple and doesn't grasp the complexity of algebraic rules. It is also not a suitable indicator for whether a model implements algebraic rules. For example, the function $f(x) = x^2$ is not a UQOTOM, but it is an algebraic rule. The fundamental flaw is that one cannot reduce the analysis of algebraic rules to the analysis of UQOTOMs.
+    presents a foundational but significant oversimplification. By narrowing the scope of "algebraic rules" to only one-to-one mappings, this framework fails to account for the true complexity of algebraic operations and serves as a poor indicator of a model's reasoning capabilities.
+
+    For instance, a common operation like the quadratic function, $f(x) = x^2$, is undeniably an algebraic rule, yet it is not a UQOTOM because it is not one-to-one (e.g., $f(2) = f(-2) = 4$). The fundamental flaw in Marcus's approach is this reduction of the broad, complex class of algebraic rules to the narrow, simpler subset of UQOTOMs. A model's ability to handle this special case provides insufficient evidence of a general capacity for algebraic thought.
 \end{critique}
 
 \subsection{Humans can freely generalize UQOTOMs}
 Now that Marcus has established his framework of UQOTOMs, he argues that humans can freely generalize these UQOTOMs. He provides evidence for this claim with the following example:
 
 \begin{example}
-    When you are presented the pattern
+    When you were presented this pattern
+
         \begin{table}[h]
         \centering
         \begin{tabular}{c|c}
@@ -76,13 +82,21 @@ Now that Marcus has established his framework of UQOTOMs, he argues that humans 
     and asked to predict the output of 1111, what would you answer?
 \end{example}
 
-Marcus argues that most people would answer 1111, because humans have a bias for generalizing UQOTOMs, which is why the identity mapping is generalized in this example. He concludes:
+Marcus argues that most people would answer 1111, because humans have a bias for generalizing UQOTOMs, which is why the identity mapping is generalized in this example. He follows from this empirical observation:
 
-\begin{premise}
-    Humans can freely generalize UQOTOMs.
-\end{premise}
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 50]
+    \begin{premise}
+        The bottom line is that humans can freely generalize one-to-one mappings [...]
+    \end{premise}
+\end{citecallout}
 
-%TODO: quote; use another premise subclass of algebraic rules is UQOTOM -> model should generalize UQOTOMs
+Thus, in Marcus's line of argumentation, humans can generalize algebraic rules based on the previous result and premise~\ref{premise:uqotom_algebraic_rule}. He concludes:
+
+\begin{conclusion}
+    Models of human cognition must be able to generalize UQOTOMs, and thus algebraic rules.
+\end{conclusion}
+
+This framework of a necessary condition for models of human cognition is the basis for Marcus's following analysis.
 
 \subsection{Multilayer Perceptrons and Operations over Variables}
 Next, Marcus emphasizes the distinction between models that allocate \emph{one node per variable}, and models which allocate \emph{multiple nodes per variable}:
@@ -98,7 +112,7 @@ Next, Marcus emphasizes the distinction between models that allocate \emph{one n
 \end{citecallout}
 
 \begin{critique}
-    In the mathematical setting of neural networks that represent one-to-one mappings, it makes no difference whether, say, 5 input nodes all together represent a single variable, or five individual variables all encoded by a single node each. Furthermore, he also does not apply this framework, or only very vaguely, as we will see in the next section.
+    In the mathematical setting of neural networks that represent one-to-one mappings, it makes no difference whether, say, 5 input nodes all together represent a single variable, or five individual variables all encoded by a single node each. Furthermore, he also does not apply this framework, or only very vaguely, as we will see in the  following.
 \end{critique}
 
 Additionally, he points out that this distinction is not to be confused with \emph{localist} and \emph{distributed} representations:
@@ -205,19 +219,19 @@ Until now, Marcus has only discussed the ability of MLPs to represent UQOTOMs. N
     respect to each possible input and output node.
 \end{citecallout}
 
-He justifies that back-propagation does not allocate special status to UQOTOMs with an exapmle:
+He justifies that back-propagation does not allocate special status to UQOTOMs with an example:
 
 \begin{example}
     The autoencoder network depicted in \ref{fig:identity_autoencoder} is trained to learn the identity mapping:
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{chapters/relations_between_variables/network.png}
+        \includegraphics[width=0.4\textwidth]{chapters/relations_between_variables/network.png}
         \caption{Autoencoder network trained to learn the identity mapping.}
         \label{fig:identity_autoencoder}
     \end{figure}
 
-    However, all training samples have a 0 as a last bit. Marcus' simulations show that the network learns to ignore the last bit by always predicting a 0, and only learns the identity mapping for the first three bits.
+    However, all training samples have a 0 as a last bit. Marcus's simulations show that the network learns to ignore the last bit by always predicting a 0, and only learns the identity mapping for the first three bits.
 \end{example}
 
 He formalizes this failure of back-propagation to learn UQOTOMs by defining the concept of \emph{training independence}:
@@ -227,25 +241,29 @@ He formalizes this failure of back-propagation to learn UQOTOMs by defining the 
     output independence or, collectively, training independence (Marcus, 1998c).
 \end{citecallout}
 
-\begin{definition}[Input Independence]
-    "\emph{Input independence is about how the connections that emanate from input nodes are trained. First, when an input node is always off (that is, set
-    to 0), the connections that emanate from it will never change. This is
-    because the term in the equation that determines the size of the weight
-    change for a given connection from input node x into the rest of the network is always multiplied by the activation of input node x; if the activation of input node x is 0, the connection weight does not change.}" (Marcus, 2001, p. 47)
-\end{definition}
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 47]
+    \begin{definition}[Input Independence]
+        "Input independence is about how the connections that emanate from input nodes are trained. First, when an input node is always off (that is, set
+        to 0), the connections that emanate from it will never change. This is
+        because the term in the equation that determines the size of the weight
+        change for a given connection from input node x into the rest of the network is always multiplied by the activation of input node x; if the activation of input node x is 0, the connection weight does not change.
+    \end{definition}
+\end{citecallout}
 
-\begin{definition}[Output Independence]
-    "\emph{Output independence is about the connections that feed into the out-
-    put units. The equations that adjust the weights feeding an output unit
-    j depend on the difference between the observed output for unit j and
-    the target output for unit j but not on the observed values or target values of
-    any other unit. Thus the way the network adjusts the weights feeding out-
-    put node j must be independent of the way the network adjusts the
-    weights feeding output node k (assuming that nodes j and k are distinct).}" (Marcus, 2001, p. 47)
-\end{definition}
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 47]
+    \begin{definition}[Output Independence]
+        Output independence is about the connections that feed into the out-
+        put units. The equations that adjust the weights feeding an output unit
+        j depend on the difference between the observed output for unit j and
+        the target output for unit j but not on the observed values or target values of
+        any other unit. Thus the way the network adjusts the weights feeding out-
+        put node j must be independent of the way the network adjusts the
+        weights feeding output node k (assuming that nodes j and k are distinct).
+    \end{definition}
+\end{citecallout}
 
 \begin{critique}
-    Marcus' concept of input independence is very specific and is not really applicable for real world examples. When an input node is always set to zero in training, we could simply use a different encoding scheme. Marcus argues that for an input node that is always set to the same constant $v$, the network "does not learn anything about the relation between that
+    Marcus's concept of input independence is very specific and is not really applicable for real world examples. When an input node is always set to zero in training, we could simply use a different encoding scheme. Marcus argues that for an input node that is always set to the same constant $v$, the network "does not learn anything about the relation between that
     input node and the output, other than to always set the output node to value $v$" (Marcus 2001, p. 47).
 
     This fact, however, is only based on empirical experiments, and is specific to the tested model architecture. What really happens is that the network won't use this node's value for inferring the output, but rather treats it as an adjustable bias for the layer it feeds into. This is not a flaw, but rather a property of the generic architectural design of MLPs.
@@ -263,26 +281,24 @@ He formalizes this failure of back-propagation to learn UQOTOMs by defining the 
     as quasi-input nodes. The crucial point is that no matter how felicitous
     the choice of quasi-input units may be, the network must always learn
     the mapping between these quasi-input nodes and the output nodes.
-    Since this latter step is done independently, the mutual influence of the
     output nodes on input-to-hidden-layer connections is not sufficient
     to allow the network to generalize a UQOTOM between nodes." (Marcus 2001, p. 47 f.)
 
     However, MLPs are not designed to generalize UQOTOMs, they are generic function approximators. Now, maybe this is exactly what Marcus criticizes, but how can we blame a generic model to not have an arbitrary bias, in this case that of UQOTOMs, when it is not designed for this purpose? When we want our model to have a specific bias, in this case to employ algebraic rules, we have to either learn the entire domain, or integrate domain specific knowledge into the architectural design (or else the model architecture wouldn't be generic).
 \end{critique}
 
-\section{Marcus' proposed Alternatives}
+\section{Marcus's proposed Alternatives}
 He begins by stating five properties a successful model must fulfill:
 
 \begin{citecallout}[\textcite{marcus_algebraic_mind} p. 51]
     In general, what is required is a system that has five properties. First,
     the system must have a way to distinguish variables from instances,
     analogous to the way mathematics textbooks set variables in italic type
-    ($x$) and constants in bold type ($\bf{AB}$). Second, the system must have a way
+    ($x$) and constants in bold type ($\bm{AB}$). Second, the system must have a way
     to represent abstract relationships between variables, analogous to an
     equation like $y = x + 2$. Third, the system must have a way to bind a
     particular instance to a given variable, just as the variable x may be
-    assigned the value 7. Fourth, the system must have a way to apply op-
-    erations to arbitrary instances of variables—for example, an addition
+    assigned the value 7. Fourth, the system must have a way to apply operations to arbitrary instances of variables—for example, an addition
     operation must be able to take any two numbers as input, a copying
     operation must be able to copy any input, or a concatenation operation
     must be able to combine any two inputs. Finally, the system must have a
@@ -291,11 +307,11 @@ He begins by stating five properties a successful model must fulfill:
 \end{citecallout}
 
 \begin{critique}
-    These criteria are not really measurable. They seem to rather act as a guideline for designing a model architecture. The following claims by Marcus seem to be of a similar nature. Hence, we may not analyze them in great detail.
+    These criteria are not really measurable. They seem to rather act as a guideline for designing a model architecture. For instance, how to measure whether a system has a way to distinguish variables from instances? Is model trained on both instances and variables, and what does it mean to treat the differently? How to measure whether a system has a way to extract relationships between variables on the basis of training examples? Does training data set cover the entire domain, or does the model have to generalize based on a small set of training examples, and how would we measure this generalization?
 \end{critique}
 
 \subsection{Encoding Schemes}
-Next in Marcus' line of argument, he presents different schemes to encode variables with input nodes. He wants to show that the inability of MLPs to learn UQOTOMs is fundamentally rooted in the architecture itself, and cannot easily be solved by different encoding schemes.
+Next in Marcus's line of argument, he presents different schemes to encode variables with input nodes. He wants to show that the inability of MLPs to learn UQOTOMs is fundamentally rooted in the architecture itself, and cannot easily be solved by different encoding schemes.
 
 First, he introduces \emph{conjunctive coding}.
 
@@ -321,6 +337,10 @@ Lastly, he mentions \emph{temporal synchrony}:
     doubts about whether it plays as important a role in cognition and language.
 \end{citecallout}
 
+\begin{critique}
+    It is a bit unclear why Marcus introduces these encoding schemes. He wants to show that the inability of MLPs to learn UQOTOMs is fundamentally rooted in the architecture itself, and cannot easily be solved by different encoding schemes. However, instead of providing a general argument for a generic class of encodings, he only discusses a few specific encodings.
+\end{critique}
+
 \subsubsection{Registers}
 Marcus suggests the use of \emph{registers}. He writes:
 
@@ -334,20 +354,7 @@ Marcus suggests the use of \emph{registers}. He writes:
     Registers are central to digital computers; my suggestion is that registers are central to human cognition as well.
 \end{citecallout}
 
-He motivates this claim by providing biological possibilities to implement such structures:
-
-\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 55]
-    A given neuron could, for
-    example, store values internally by modulating cell-internal gene expression. We know, for example, that cells have the sort of memory that
-    indicates their type (Rensberger, 1996); when a cell divides, its type of
-    memory is generally inherited by its offspring. These mechanisms, or
-    other mechanisms such as the reciprocal modulation of ion channels
-    (Holmes, 1998), could provide an intracellular basis for registers.
-\end{citecallout}
-
-Additionally, according to Marcus, registers could explain the phenomenon of \emph{rapidly updatable memory}, which describes how we humans are able to learn things on a single trail, like remembering where we parked out car.
-
-The brain would use these registers to perform basic operations on them:
+Additionally, according to Marcus, registers could explain the phenomenon of \emph{rapidly updatable memory}, which describes how we humans are able to learn things on a single trail, like remembering where we parked our car. The brain would use these registers to perform basic operations on them:
 
 \begin{citecallout}[\textcite{marcus_algebraic_mind} p. 58]
     My hunch
@@ -363,19 +370,50 @@ Marcus claims that this modus operandi would explain our ability to generalize a
     elementary instructions.
 \end{citecallout}
 
+\begin{critique}
+    First, his claim that the human brain employs registers and basic operations on them is very bold, since he offers very little empirical data, relying instead on speculative arguments.
+    Second, while Marcus gives some good arguments for his suggestion of using registers, it is still a bit unmotivated, especially with respect to the previous discussion. How do registers help a model to generalize UQOTOM? Marcus doesn't provide any explanation about such models and their behavior. The only purpose for his framework is to criticize the status quo, but he seems to have double standards for his own claims.
+\end{critique}
 
+% \subsection{Case Studies}
+% To substantiate his theoretical framework, Marcus concludes the chapter with two detailed case studies: the learning of artificial grammars by infants and the inflection of the English past tense. In both examples, he argues that models incorporating rule-like, symbolic operations—similar to the register-based architecture he advocates—can successfully account for human cognitive phenomena where he claims standard connectionist models fail.
 
+% A full analysis of these specific empirical arguments is beyond the scope of this paper, which has focused on the chapter's core theoretical claims and their weaknesses. However, these case studies represent Marcus's primary evidence for the necessity of the architectural properties he proposes.
 
-Meta question:
-Learning vs. inference question
--> he often refers to human capabilities:
-"Cases in which humans can freely generalize UQOTOM on the basis of
-restricted data are problematic for multiple-nodes-per-variable multi-
-layer perceptrons trained by back-propagation." (Marcus 2001, p. 50)
+\subsection{Case Studies}
+To substantiate his theoretical framework, Marcus concludes the chapter with two detailed case studies: the learning of artificial grammars by infants and the inflection of the English past tense. A brief examination of the latter reveals the core of his argument.
 
-Summary:
+In the English past tense debate, Marcus argues that humans use a dual-route system: a default, symbolic rule for regular verbs and a separate associative memory for irregular exceptions. He critiques early connectionist models for attempting to handle both with a single mechanism. He famously pointed out that these models often produce erroneous blends because they don't treat the verb stem as a distinct variable, writing:
 
-Hit critique is valid, but it is obvious and explanations are too simple to infer any meaningful conclusions.
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 78 f.]
+    In any case, swapping a process that operates over variables for a process that relates a regular verb and its past tense only in a piecemeal way
+    results in a problem with blends. If there is no stem-copying process as
+    such, nothing constrains the system to use the -ed morpheme only when
+    the stem has been copied. Instead, whether the stem is transformed (as
+    with an irregular) or copied (as with a regular) is an emergent property
+    that depends on a set of largely independent, piecemeal processes. If the
+    system learns that i sometimes changes to a, there is little to stop it from
+    applying the i-a process at the same time as the process that causes -ed to
+    appear at the end. The consequence is lots of blends, such as nick-nucked,
+    that humans rarely if ever produce.
+\end{citecallout}
 
-The claims he made at the end are very bold and not really well argued. One can either believe them or not.
+\begin{critique}
+    While Marcus correctly identifies the shortcomings of the specific, early connectionist models he analyzes, his conclusion that this proves the necessity of an explicit, rule-based system can be challenged. One could argue that rule-like behavior can emerge from a single, powerful pattern-learning mechanism without being explicitly programmed. The failures he highlights may not be fundamental flaws of the entire connectionist paradigm, but rather limitations of the specific, small-scale architectures of that era. Modern neural networks, operating at a much larger scale, are significantly more adept at learning complex, quasi-regular patterns.
+\end{critique}
+
+Marcus proceeds by analyzing additional models, where he points out different strengths and weaknesses. However, a full analysis of these empirical arguments is beyond the scope of this paper, which has focused on the chapter's core theoretical claims. Marcus concludes his case studies with:
+
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 68]
+    As the summary given in table 3.2 makes clear, the
+    few connectionist models that do not incorporate any sort of genuine operation over variables cannot capture our results, whereas all of the models that do implement operations over variables can capture our results.
+\end{citecallout}
+
+\pagebreak
+\section{Summary}
+In this chapter of Marcus's book \emph{The Algebraic Mind}, the author established a new framework for assessing the capability of models to learn algebraic rules.
+
+Marcus supports his claims with examples and empirical data. Nonetheless, the reader should remain critical of his framework and the arguments given. Central points of criticism are Marcus's reduction of algebraic rules to what he calls UQOTOMs, the consequences of his critique of backpropagation, and lastly his claims about registers and the human brain, which can be seen as unmotivated and bold.
+
+While Marcus's approach is arguably too simplified for the complex nature of symbol manipulation and human cognition, his critique should not be overlooked. Even though his framework may lack some formal rigor, his main points—namely, the apparent misalignment between human cognitive biases and those of popular architectures like MLPs, as well as his appeal to look for alternatives—remain relevant today.
 \end{document}

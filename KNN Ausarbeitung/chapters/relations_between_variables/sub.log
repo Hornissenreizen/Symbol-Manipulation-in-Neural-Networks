@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  9 AUG 2025 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.20)  13 AUG 2025 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -662,7 +662,7 @@ File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -685,7 +685,7 @@ Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
 Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
@@ -1197,7 +1197,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 3.
+Package hyperref Info: Link coloring OFF on input line 3.
  (chapters/relations_between_variables/sub.out) (chapters/relations_between_variables/sub.out)
 \@outlinefile=\write5
 \openout5 = `sub.out'.
@@ -1258,18 +1258,30 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 [4]
 
 [5]
-<chapters/relations_between_variables/network.png, id=97, 658.46pt x 663.47874pt>
+<chapters/relations_between_variables/network.png, id=101, 658.46pt x 663.47874pt>
 File: chapters/relations_between_variables/network.png Graphic file (type png)
 <use chapters/relations_between_variables/network.png>
-Package pdftex.def Info: chapters/relations_between_variables/network.png  used on input line 215.
-(pdftex.def)             Requested size: 224.06548pt x 225.77214pt.
+Package pdftex.def Info: chapters/relations_between_variables/network.png  used on input line 229.
+(pdftex.def)             Requested size: 179.24963pt x 180.6096pt.
 
 
 [6]
 
 [7 <./chapters/relations_between_variables/network.png>]
 
-[8] (chapters/relations_between_variables/sub.aux)
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14] (chapters/relations_between_variables/sub.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1285,21 +1297,21 @@ Package logreq Info: Writing requests to 'sub.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52540 strings out of 473330
- 1213289 string characters out of 5719768
- 2374665 words of memory out of 5000000
- 74879 multiletter control sequences out of 15000+600000
+ 52624 strings out of 473330
+ 1214520 string characters out of 5719768
+ 2376149 words of memory out of 5000000
+ 74949 multiletter control sequences out of 15000+600000
  568419 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,124p,11036b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,10n,124p,11036b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@marcus_algebraic_mind} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on chapters/relations_between_variables/sub.pdf (8 pages, 200129 bytes).
+Output written on chapters/relations_between_variables/sub.pdf (14 pages, 219868 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
