@@ -18,21 +18,14 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{marcus_algebraic_mind}{book}{}{}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{marcus_alphageometry}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA}%
-      }
-      \list{publisher}{1}{%
-        {The MIT Press}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
@@ -45,37 +38,6 @@
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
-      \field{year}{2001}
-    \endentry
-    \entry{marcus_alphageometry}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -92,16 +54,13 @@
       \verb https://garymarcus.substack.com/p/alphaproof-alphageometry-chatgpt
       \endverb
     \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
     \entry{marcus_algebraic_mind}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Cambridge, MA}%
@@ -117,55 +76,13 @@
       \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
       \field{year}{2001}
-    \endentry
-    \entry{marcus_alphageometry}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{7}
-      \field{title}{AlphaProof, AlphaGeometry, ChatGPT, and why the future of AI is neurosymbolic}
-      \field{urlday}{7}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://garymarcus.substack.com/p/alphaproof-alphageometry-chatgpt
-      \endverb
-      \verb{url}
-      \verb https://garymarcus.substack.com/p/alphaproof-alphageometry-chatgpt
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

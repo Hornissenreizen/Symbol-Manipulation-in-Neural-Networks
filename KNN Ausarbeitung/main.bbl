@@ -18,21 +18,14 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{marcus_algebraic_mind}{book}{}{}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{marcus_knockout_blow}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA}%
-      }
-      \list{publisher}{1}{%
-        {The MIT Press}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
@@ -45,22 +38,29 @@
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
-      \field{year}{2001}
+      \field{month}{6}
+      \field{title}{A knockout blow for LLMs?}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://garymarcus.substack.com/p/a-knockout-blow-for-llms
+      \endverb
+      \verb{url}
+      \verb https://garymarcus.substack.com/p/a-knockout-blow-for-llms
+      \endverb
     \endentry
     \entry{marcus_alphageometry}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
@@ -73,9 +73,6 @@
       \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -94,12 +91,11 @@
     \endentry
     \entry{marcus_black_box}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
@@ -112,10 +108,6 @@
       \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -132,185 +124,13 @@
       \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
       \endverb
     \endentry
-    \entry{marcus_knockout_blow}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{A knockout blow for LLMs?}
-      \field{urlday}{7}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://garymarcus.substack.com/p/a-knockout-blow-for-llms
-      \endverb
-      \verb{url}
-      \verb https://garymarcus.substack.com/p/a-knockout-blow-for-llms
-      \endverb
-    \endentry
-    \entry{illusion-of-thinking}{misc}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=b8cf0e6bc53cb59207ba0dd2248beeb6}{%
-           family={Shojaee*†},
-           familyi={S\bibinitperiod},
-           given={Parshin},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=51dc9d60776af1ee59122ea2c1efa907}{%
-           family={Mirzadeh*},
-           familyi={M\bibinitperiod},
-           given={Iman},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86fa7ba7f338beb9d29c698831e68595}{%
-           family={Alizadeh},
-           familyi={A\bibinitperiod},
-           given={Keivan},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd423f503f70b4ee8c702baa1677fbef}{%
-           family={Horton},
-           familyi={H\bibinitperiod},
-           given={Maxwell},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=02404a92b0be3f52ec5ac08e41c13445}{%
-           family={Bengio},
-           familyi={B\bibinitperiod},
-           given={Samy},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ec062944682ce19fe2e0ca6c0405cfe0}{%
-           family={Farajtabar},
-           familyi={F\bibinitperiod},
-           given={Mehrdad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{835d3977a4f2c5625a09097700a07d4b}
-      \strng{fullhash}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{fullhashraw}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{bibnamehash}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{authorbibnamehash}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{authornamehash}{835d3977a4f2c5625a09097700a07d4b}
-      \strng{authorfullhash}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{authorfullhashraw}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf
-      \endverb
-      \verb{url}
-      \verb https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf
-      \endverb
-    \endentry
-    \entry{Trinh2024}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=9dffe0d27919d9fd2a9358aca8eb9b83}{%
-           family={Trinh},
-           familyi={T\bibinitperiod},
-           given={Trieu\bibnamedelima H.},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=954bef435a12336c9decd19360a640f5}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Yuhuai},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c636f146591d51579a8119b777394878}{%
-           family={Le},
-           familyi={L\bibinitperiod},
-           given={Quoc\bibnamedelima V.},
-           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ab9793659f2bfad54eefb759c28350df}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={He},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2d7f3674afa2647fbcb67bd41aaae2be}{%
-           family={Luong},
-           familyi={L\bibinitperiod},
-           given={Thang},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{14b96e56ca4e1f72aac146f0e018c5be}
-      \strng{fullhash}{683578ce951a37a00916a75361ff2e18}
-      \strng{fullhashraw}{683578ce951a37a00916a75361ff2e18}
-      \strng{bibnamehash}{683578ce951a37a00916a75361ff2e18}
-      \strng{authorbibnamehash}{683578ce951a37a00916a75361ff2e18}
-      \strng{authornamehash}{14b96e56ca4e1f72aac146f0e018c5be}
-      \strng{authorfullhash}{683578ce951a37a00916a75361ff2e18}
-      \strng{authorfullhashraw}{683578ce951a37a00916a75361ff2e18}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1476-4687}
-      \field{journaltitle}{Nature}
-      \field{number}{7995}
-      \field{title}{Solving olympiad geometry without human demonstrations}
-      \field{volume}{625}
-      \field{year}{2024}
-      \field{pages}{476\bibrangedash 482}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1038/s41586-023-06747-5
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/s41586-023-06747-5
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/s41586-023-06747-5
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
     \entry{marcus_algebraic_mind}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Cambridge, MA}%
@@ -326,188 +146,57 @@
       \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
       \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{1}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
       \field{year}{2001}
     \endentry
-    \entry{marcus_alphageometry}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{7}
-      \field{title}{AlphaProof, AlphaGeometry, ChatGPT, and why the future of AI is neurosymbolic}
-      \field{urlday}{7}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://garymarcus.substack.com/p/alphaproof-alphageometry-chatgpt
-      \endverb
-      \verb{url}
-      \verb https://garymarcus.substack.com/p/alphaproof-alphageometry-chatgpt
-      \endverb
-    \endentry
-    \entry{marcus_black_box}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{Generative AI's crippling and widespread failure to induce robust models of the world}
-      \field{urlday}{7}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
-      \endverb
-      \verb{url}
-      \verb https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread
-      \endverb
-    \endentry
-    \entry{marcus_knockout_blow}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{extraname}{4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{A knockout blow for LLMs?}
-      \field{urlday}{7}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://garymarcus.substack.com/p/a-knockout-blow-for-llms
-      \endverb
-      \verb{url}
-      \verb https://garymarcus.substack.com/p/a-knockout-blow-for-llms
-      \endverb
-    \endentry
     \entry{illusion-of-thinking}{misc}{}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=b8cf0e6bc53cb59207ba0dd2248beeb6}{%
+        {{hash=b8cf0e6bc53cb59207ba0dd2248beeb6}{%
            family={Shojaee*†},
            familyi={S\bibinitperiod},
            given={Parshin},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=51dc9d60776af1ee59122ea2c1efa907}{%
+           giveni={P\bibinitperiod}}}%
+        {{hash=51dc9d60776af1ee59122ea2c1efa907}{%
            family={Mirzadeh*},
            familyi={M\bibinitperiod},
            given={Iman},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86fa7ba7f338beb9d29c698831e68595}{%
+           giveni={I\bibinitperiod}}}%
+        {{hash=86fa7ba7f338beb9d29c698831e68595}{%
            family={Alizadeh},
            familyi={A\bibinitperiod},
            given={Keivan},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd423f503f70b4ee8c702baa1677fbef}{%
+           giveni={K\bibinitperiod}}}%
+        {{hash=dd423f503f70b4ee8c702baa1677fbef}{%
            family={Horton},
            familyi={H\bibinitperiod},
            given={Maxwell},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=02404a92b0be3f52ec5ac08e41c13445}{%
+           giveni={M\bibinitperiod}}}%
+        {{hash=02404a92b0be3f52ec5ac08e41c13445}{%
            family={Bengio},
            familyi={B\bibinitperiod},
            given={Samy},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ec062944682ce19fe2e0ca6c0405cfe0}{%
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec062944682ce19fe2e0ca6c0405cfe0}{%
            family={Farajtabar},
            familyi={F\bibinitperiod},
            given={Mehrdad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
+           giveni={M\bibinitperiod}}}%
       }
       \strng{namehash}{835d3977a4f2c5625a09097700a07d4b}
       \strng{fullhash}{e617cfa5450dec05eefaedcc9cb70d5e}
       \strng{fullhashraw}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{bibnamehash}{e617cfa5450dec05eefaedcc9cb70d5e}
-      \strng{authorbibnamehash}{e617cfa5450dec05eefaedcc9cb70d5e}
+      \strng{bibnamehash}{835d3977a4f2c5625a09097700a07d4b}
+      \strng{authorbibnamehash}{835d3977a4f2c5625a09097700a07d4b}
       \strng{authornamehash}{835d3977a4f2c5625a09097700a07d4b}
       \strng{authorfullhash}{e617cfa5450dec05eefaedcc9cb70d5e}
       \strng{authorfullhashraw}{e617cfa5450dec05eefaedcc9cb70d5e}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity}
@@ -521,50 +210,42 @@
     \endentry
     \entry{Trinh2024}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=9dffe0d27919d9fd2a9358aca8eb9b83}{%
+        {{hash=9dffe0d27919d9fd2a9358aca8eb9b83}{%
            family={Trinh},
            familyi={T\bibinitperiod},
            given={Trieu\bibnamedelima H.},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=954bef435a12336c9decd19360a640f5}{%
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=954bef435a12336c9decd19360a640f5}{%
            family={Wu},
            familyi={W\bibinitperiod},
            given={Yuhuai},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c636f146591d51579a8119b777394878}{%
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c636f146591d51579a8119b777394878}{%
            family={Le},
            familyi={L\bibinitperiod},
            given={Quoc\bibnamedelima V.},
-           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ab9793659f2bfad54eefb759c28350df}{%
+           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ab9793659f2bfad54eefb759c28350df}{%
            family={He},
            familyi={H\bibinitperiod},
            given={He},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2d7f3674afa2647fbcb67bd41aaae2be}{%
+           giveni={H\bibinitperiod}}}%
+        {{hash=2d7f3674afa2647fbcb67bd41aaae2be}{%
            family={Luong},
            familyi={L\bibinitperiod},
            given={Thang},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
+           giveni={T\bibinitperiod}}}%
       }
       \strng{namehash}{14b96e56ca4e1f72aac146f0e018c5be}
       \strng{fullhash}{683578ce951a37a00916a75361ff2e18}
       \strng{fullhashraw}{683578ce951a37a00916a75361ff2e18}
-      \strng{bibnamehash}{683578ce951a37a00916a75361ff2e18}
-      \strng{authorbibnamehash}{683578ce951a37a00916a75361ff2e18}
+      \strng{bibnamehash}{14b96e56ca4e1f72aac146f0e018c5be}
+      \strng{authorbibnamehash}{14b96e56ca4e1f72aac146f0e018c5be}
       \strng{authornamehash}{14b96e56ca4e1f72aac146f0e018c5be}
       \strng{authorfullhash}{683578ce951a37a00916a75361ff2e18}
       \strng{authorfullhashraw}{683578ce951a37a00916a75361ff2e18}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1476-4687}

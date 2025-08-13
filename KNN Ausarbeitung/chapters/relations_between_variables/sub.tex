@@ -19,7 +19,7 @@ Instead of considering all these functions of human cognition at once, Marcus fo
 
 Some important examples of UQOTOMs that Marcus is going to analyze are the identity function, and the simple past operation which produces the simple past of a verb. According to Marcus:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 36]
     I do not mean to suggest that UQOTOM are the only mappings
     people compute. But UQOTOM are especially important to the arguments that follow because they are functions in which every new input has a new output. Because free generalization of UQOTOM would
     preclude memorization, evidence that people (or other organisms) can
@@ -27,22 +27,22 @@ Some important examples of UQOTOMs that Marcus is going to analyze are the ident
     support of the thesis that people (or other organisms) can perform operations over variables.
 \end{citecallout}
 
-Based on this quote, we can see that Marcus is interested in UQOTOMs because they enforce a system to \emph{generalize} mappings. That is, given a never-before-seen input, a potential model implementing this UQOTOM must produce a new output that has not been produced before. And this generalization is a central aspect of \emph{symbol manipulation} according to Marcus.
+Based on this quote, we can see that Marcus is interested in UQOTOMs because they enforce a system to \emph{generalize} mappings. That is, given a never-before-seen input, a potential model implementing this UQOTOM must produce a new output that has not been produced before. And this generalization is a central aspect of \emph{symbol manipulation} according to Marcus:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 36]
     To a system that can make use of algebralike operations over variables,
     free generalization comes naturally.
 \end{citecallout}
 
-Furthermore, he specifies algebraic rules further and he writes:
+Furthermore, he specifies algebraic rules further:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 40]
     Algebraic rules are not finite tables of memorized facts or relationships between specific instances but open-ended relationships that can be freely generalized to all elements within some class.
 \end{citecallout}
 
 Most decisively, for Marcus, a UQOTOM isn't just a special type of function; it is the very implementation of an algebraic rule. He writes:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 44]
     \begin{premise}
         \label{premise:uqotom_algebraic_rule}
         When such a network represents identity or some other UQOTOM,
@@ -105,7 +105,7 @@ Next, Marcus emphasizes the distinction between models that allocate \emph{one n
     A model is said to allocate \emph{one node per variable} if it has a single node for each variable in the input. A model is said to allocate \emph{multiple nodes per variable} if it has multiple nodes for each variable in the input.
 \end{definition}
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 42]
     Again, what is relevant here is not the sheer number of input units
     but rather the number of input units allocated to representing each input
     variable.
@@ -117,14 +117,14 @@ Next, Marcus emphasizes the distinction between models that allocate \emph{one n
 
 Additionally, he points out that this distinction is not to be confused with \emph{localist} and \emph{distributed} representations:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 42]
     While all models that use distributed representations allocate more than one variable per node, it is
     not the case that all localist models allocate a single node per variable.
 \end{citecallout}
 
 With this definition established, Marcus claims that:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 43]
     One-node-per-variable models, it turns out, can and indeed (the caveats in note 5 notwithstanding) must represent universally
     quantified one-to-one mappings.
 \end{citecallout}
@@ -194,7 +194,7 @@ With this definition established, Marcus claims that:
 
 Regarding models that allocate more than one node per variable, Marcus states:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 44]
     Models that allocate more than one node per variable too, can represent
     universally quantified one-to-one mappings (see, for example, the left
     panel of figure 3.4), but they do not have to (see the right panel of figure
@@ -208,7 +208,7 @@ Regarding models that allocate more than one node per variable, Marcus states:
 \subsubsection{Learning}
 Until now, Marcus has only discussed the ability of MLPs to represent UQOTOMs. Now, he turns to the question of whether MLPs can \emph{learn} UQOTOMs. He states:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 45]
     The flexibility in what multiple-nodes-per-variable models
     can represent leads to a flexibility in what they can learn. Multiple-
     nodes-per-variable models can learn UQOTOMs, and they can learn
@@ -226,7 +226,7 @@ He justifies that back-propagation does not allocate special status to UQOTOMs w
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.4\textwidth]{chapters/relations_between_variables/network.png}
+        \includegraphics[width=0.3\textwidth]{chapters/relations_between_variables/network.png}
         \caption{Autoencoder network trained to learn the identity mapping.}
         \label{fig:identity_autoencoder}
     \end{figure}
@@ -236,14 +236,14 @@ He justifies that back-propagation does not allocate special status to UQOTOMs w
 
 He formalizes this failure of back-propagation to learn UQOTOMs by defining the concept of \emph{training independence}:
 
-\begin{citecallout}[\textcite{marcus_algebraic_mind}]
+\begin{citecallout}[\textcite{marcus_algebraic_mind} p. 47]
     The equations lead to two properties that I call input independence and
     output independence or, collectively, training independence (Marcus, 1998c).
 \end{citecallout}
 
 \begin{citecallout}[\textcite{marcus_algebraic_mind} p. 47]
     \begin{definition}[Input Independence]
-        "Input independence is about how the connections that emanate from input nodes are trained. First, when an input node is always off (that is, set
+        Input independence is about how the connections that emanate from input nodes are trained. First, when an input node is always off (that is, set
         to 0), the connections that emanate from it will never change. This is
         because the term in the equation that determines the size of the weight
         change for a given connection from input node x into the rest of the network is always multiplied by the activation of input node x; if the activation of input node x is 0, the connection weight does not change.
@@ -263,8 +263,8 @@ He formalizes this failure of back-propagation to learn UQOTOMs by defining the 
 \end{citecallout}
 
 \begin{critique}
-    Marcus's concept of input independence is very specific and is not really applicable for real world examples. When an input node is always set to zero in training, we could simply use a different encoding scheme. Marcus argues that for an input node that is always set to the same constant $v$, the network "does not learn anything about the relation between that
-    input node and the output, other than to always set the output node to value $v$" (Marcus 2001, p. 47).
+    Marcus's concept of input independence is very specific and is not really applicable for real world examples. When an input node is always set to zero in training, we could simply use a different encoding scheme. Marcus argues that for an input node that is always set to the same constant $v$, the network "\emph{does not learn anything about the relation between that
+    input node and the output, other than to always set the output node to value $v$}" (\textcite{marcus_algebraic_mind}, p. 47).
 
     This fact, however, is only based on empirical experiments, and is specific to the tested model architecture. What really happens is that the network won't use this node's value for inferring the output, but rather treats it as an adjustable bias for the layer it feeds into. This is not a flaw, but rather a property of the generic architectural design of MLPs.
 \end{critique}
@@ -273,7 +273,7 @@ He formalizes this failure of back-propagation to learn UQOTOMs by defining the 
     Similarly, output independence is just another property of MLPs which isn't necessarily a flaw. It is not the case that the network learns to predict each output node based on the input nodes independently, since the hidden layers are trained based on \emph{all} output nodes.
     Marcus acknowledges this fact, he writes:
 
-    "This means not that there is never any dependence between output
+    "\emph{This means not that there is never any dependence between output
     nodes but that the only source of dependence between them is their common influence on the hidden nodes, which turns out not to be enough.
     At best, the mutual influence of output nodes on input-to-hidden-
     layer connections may under some circumstances lead to felicitous
@@ -282,11 +282,12 @@ He formalizes this failure of back-propagation to learn UQOTOMs by defining the 
     the choice of quasi-input units may be, the network must always learn
     the mapping between these quasi-input nodes and the output nodes.
     output nodes on input-to-hidden-layer connections is not sufficient
-    to allow the network to generalize a UQOTOM between nodes." (Marcus 2001, p. 47 f.)
+    to allow the network to generalize a UQOTOM between nodes.}" (\textcite{marcus_algebraic_mind}, p. 47 f.)
 
     However, MLPs are not designed to generalize UQOTOMs, they are generic function approximators. Now, maybe this is exactly what Marcus criticizes, but how can we blame a generic model to not have an arbitrary bias, in this case that of UQOTOMs, when it is not designed for this purpose? When we want our model to have a specific bias, in this case to employ algebraic rules, we have to either learn the entire domain, or integrate domain specific knowledge into the architectural design (or else the model architecture wouldn't be generic).
 \end{critique}
 
+\pagebreak
 \section{Marcus's proposed Alternatives}
 He begins by stating five properties a successful model must fulfill:
 
@@ -307,13 +308,13 @@ He begins by stating five properties a successful model must fulfill:
 \end{citecallout}
 
 \begin{critique}
-    These criteria are not really measurable. They seem to rather act as a guideline for designing a model architecture. For instance, how to measure whether a system has a way to distinguish variables from instances? Is model trained on both instances and variables, and what does it mean to treat the differently? How to measure whether a system has a way to extract relationships between variables on the basis of training examples? Does training data set cover the entire domain, or does the model have to generalize based on a small set of training examples, and how would we measure this generalization?
+    These criteria are not really measurable; they seem to function more as a guideline for designing a model architecture. For instance, how to measure whether a system has a way to distinguish variables from instances? Is model trained on both instances and variables, and what does it mean to treat them differently? How to measure whether a system has a way to extract relationships between variables on the basis of training examples? Does training data set cover the entire domain, or does the model have to generalize based on a small set of training examples, and how would we measure this generalization?
 \end{critique}
 
 \subsection{Encoding Schemes}
 Next in Marcus's line of argument, he presents different schemes to encode variables with input nodes. He wants to show that the inability of MLPs to learn UQOTOMs is fundamentally rooted in the architecture itself, and cannot easily be solved by different encoding schemes.
 
-First, he introduces \emph{conjunctive coding}.
+First, he introduces \emph{conjunctive coding}. However, after some considerations he concludes:
 
 \begin{citecallout}[\textcite{marcus_algebraic_mind} p. 52]
     But the brain must rely on other techniques for variable binding as

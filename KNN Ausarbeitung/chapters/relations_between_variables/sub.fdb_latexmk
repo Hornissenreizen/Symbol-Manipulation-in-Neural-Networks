@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber chapters/relations_between_variables/sub"] 1755077469.72021 "chapters/relations_between_variables/sub.bcf" "chapters/relations_between_variables/sub.bbl" "chapters/relations_between_variables/sub" 1755077482.75803 0
-  "chapters/relations_between_variables/sub.bcf" 1755077482.61918 136847 d8dc2e9c454db5f11529ae3c178e32da "pdflatex"
+["biber chapters/relations_between_variables/sub"] 1755080720.51005 "chapters/relations_between_variables/sub.bcf" "chapters/relations_between_variables/sub.bbl" "chapters/relations_between_variables/sub" 1755081339.75034 0
+  "chapters/relations_between_variables/sub.bcf" 1755081339.61164 111928 21bac150b2aa8581ad1f69865565582c "pdflatex"
   "references.bib" 1755007204.37123 1967 804c8bf6cb5d6818f21653d2b599c388 ""
   (generated)
   "chapters/relations_between_variables/sub.bbl"
   "chapters/relations_between_variables/sub.blg"
   (rewritten before read)
-["pdflatex"] 1755077476.92749 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" "chapters/relations_between_variables/sub.pdf" "sub" 1755077482.75844 0
-  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" 1755077463.64609 28199 67bd52566289f3735abb87adc82ca133 ""
+["pdflatex"] 1755081334.04443 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" "chapters/relations_between_variables/sub.pdf" "sub" 1755081339.7507 0
+  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/relations_between_variables/sub.tex" 1755081333.79809 28364 1251809a5862a04cb8b8560264209cde ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -184,11 +184,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1717359999 2378 05fbb4f2b23b0e142f8cd3440c37e72e ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty" 1717359999 5525 3792dcd5bc92158cfaf00cc591e557cf ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty" 1717359999 5048 7ebf0f2edf1ef6783e8fe2201a95d0e8 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx" 1679344277 15341 97bd08d7348d989673bff499328b308a ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.bbx" 1679344277 68546 9e1a16021ee55f6bb5378029f145647b ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.cbx" 1679344277 20499 0ad31db7b661b1a75fb75fe9aa337922 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.dbx" 1679344277 2676 4c4c5f7972322150712501515143ddd7 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx" 1679344277 9938 c83babc77d4f40c7c3ebf42daaa0495c ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx" 1609451401 1818 9ed166ac0a9204a8ebe450ca09db5dde ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx" 1609451401 25680 409c3f3d570418bc545e8065bebd0688 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg" 1342308459 69 249fa6df04d948e51b6d5c67bea30c42 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def" 1711143581 96838 228f189cb4020ea9f6d467af8aa859c2 ""
@@ -196,7 +192,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty" 1711143581 9961 107fdb78f652fccae7bce0d23bdc19cd ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def" 1643926307 13919 5426dbe90e723f089052b4e908b56ef9 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def" 1711143581 32761 18d14e3b502c120f79b2184de4e21d14 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/american.lbx" 1342308459 169 40f2892b6b9cee1ffa9c07b78605a5a1 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx" 1678141846 4629 cda468e8a0b1cfa0f61872e171037a4b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1711143581 40021 daa5a82ed0967f3ac4b77cb8384cac55 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1702241854 8818 aa5157b46368efebf023abff55611467 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty" 1702241854 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
@@ -300,13 +296,13 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734705286 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734705385 3343776 7b550fb143c8844e093d81085ae33088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1734705281.41451 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "chapters/relations_between_variables/../../main.tex" 1755076003.0578 3932 07a6a55b9ad0216f15cae1d1e390b7d8 ""
+  "chapters/relations_between_variables/../../main.tex" 1755080897.4128 3971 261aacd0d221a336fcc3d4e2d4cabad2 ""
   "chapters/relations_between_variables/network.png" 1754733921.75229 90155 f4f17cc3f43d634c49193bb8c0b4b495 ""
-  "chapters/relations_between_variables/sub.aux" 1755077482.61218 11189 ae8bdfcb2567f09af35599846739bc6b "pdflatex"
-  "chapters/relations_between_variables/sub.bbl" 1755077471.09969 3354 82bc31404d96e2b9a9a5f967b3442d6a "biber chapters/relations_between_variables/sub"
-  "chapters/relations_between_variables/sub.out" 1755077479.38617 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "chapters/relations_between_variables/sub.run.xml" 1755077482.62138 2420 e8d19b20c28a89a88f01df87cf7c565b "pdflatex"
-  "chapters/relations_between_variables/sub.tex" 1755077463.64609 28199 67bd52566289f3735abb87adc82ca133 ""
+  "chapters/relations_between_variables/sub.aux" 1755081339.60664 9675 039e339f26d420f8ac79163bfa973dd5 "pdflatex"
+  "chapters/relations_between_variables/sub.bbl" 1755080721.79459 1775 5e4fbfd6e1f6951934bc99f27a646d24 "biber chapters/relations_between_variables/sub"
+  "chapters/relations_between_variables/sub.out" 1755081336.35414 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "chapters/relations_between_variables/sub.run.xml" 1755081339.61429 2298 f69f6b5821fe4429793a4e21a52c7fb7 "pdflatex"
+  "chapters/relations_between_variables/sub.tex" 1755081333.79809 28364 1251809a5862a04cb8b8560264209cde ""
   (generated)
   "chapters/relations_between_variables/sub.aux"
   "chapters/relations_between_variables/sub.bcf"

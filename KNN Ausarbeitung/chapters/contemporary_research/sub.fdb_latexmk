@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber chapters/contemporary_research/sub"] 1755073805.75732 "chapters/contemporary_research/sub.bcf" "chapters/contemporary_research/sub.bbl" "chapters/contemporary_research/sub" 1755075176.57302 0
-  "chapters/contemporary_research/sub.bcf" 1755075176.43572 135644 b2caf12f6c4990895ae9cacae67092b3 "pdflatex"
+["biber chapters/contemporary_research/sub"] 1755081245.23616 "chapters/contemporary_research/sub.bcf" "chapters/contemporary_research/sub.bbl" "chapters/contemporary_research/sub" 1755081705.45991 0
+  "chapters/contemporary_research/sub.bcf" 1755081705.30511 110276 9fa3f4dad3bf7870dc8de000bfc5bc3e "pdflatex"
   "references.bib" 1755007204.37123 1967 804c8bf6cb5d6818f21653d2b599c388 ""
   (generated)
   "chapters/contemporary_research/sub.bbl"
   "chapters/contemporary_research/sub.blg"
   (rewritten before read)
-["pdflatex"] 1755075173.48423 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/contemporary_research/sub.tex" "chapters/contemporary_research/sub.pdf" "sub" 1755075176.57344 0
-  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/contemporary_research/sub.tex" 1755075173.22957 11387 075441892daf3d75f7f592281a741cbf ""
+["pdflatex"] 1755081702.44732 "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/contemporary_research/sub.tex" "chapters/contemporary_research/sub.pdf" "sub" 1755081705.46026 0
+  "/home/john/Desktop/Symbol-Manipulation-in-Neural-Networks/KNN Ausarbeitung/chapters/contemporary_research/sub.tex" 1755081702.18721 11386 93dcd13c805f3c1352b98ed78622eb56 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm" 1136768653 1536 c09172c8f235393e6235bb4758357c41 ""
@@ -155,11 +155,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1717359999 2378 05fbb4f2b23b0e142f8cd3440c37e72e ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty" 1717359999 5525 3792dcd5bc92158cfaf00cc591e557cf ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty" 1717359999 5048 7ebf0f2edf1ef6783e8fe2201a95d0e8 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx" 1679344277 15341 97bd08d7348d989673bff499328b308a ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.bbx" 1679344277 68546 9e1a16021ee55f6bb5378029f145647b ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.cbx" 1679344277 20499 0ad31db7b661b1a75fb75fe9aa337922 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.dbx" 1679344277 2676 4c4c5f7972322150712501515143ddd7 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx" 1679344277 9938 c83babc77d4f40c7c3ebf42daaa0495c ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx" 1609451401 1818 9ed166ac0a9204a8ebe450ca09db5dde ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx" 1609451401 25680 409c3f3d570418bc545e8065bebd0688 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg" 1342308459 69 249fa6df04d948e51b6d5c67bea30c42 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def" 1711143581 96838 228f189cb4020ea9f6d467af8aa859c2 ""
@@ -167,7 +163,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty" 1711143581 9961 107fdb78f652fccae7bce0d23bdc19cd ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def" 1643926307 13919 5426dbe90e723f089052b4e908b56ef9 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def" 1711143581 32761 18d14e3b502c120f79b2184de4e21d14 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/american.lbx" 1342308459 169 40f2892b6b9cee1ffa9c07b78605a5a1 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx" 1678141846 4629 cda468e8a0b1cfa0f61872e171037a4b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1711143581 40021 daa5a82ed0967f3ac4b77cb8384cac55 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1702241854 8818 aa5157b46368efebf023abff55611467 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty" 1702241854 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
@@ -269,14 +265,14 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734705286 5485709 8129e419010b46b234085a26866cdb87 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734705385 3343776 7b550fb143c8844e093d81085ae33088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1734705281.41451 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "chapters/contemporary_research/../../main.tex" 1755013444.86332 3822 cb6ebef81f11fd20d133ce686b2df65d ""
+  "chapters/contemporary_research/../../main.tex" 1755081476.76395 3971 261aacd0d221a336fcc3d4e2d4cabad2 ""
   "chapters/contemporary_research/accuracy_at_complexity.png" 1754999936.79703 71306 57506a44c56c5993b49d134026fd92b1 ""
   "chapters/contemporary_research/alphageometry.png" 1755011672.3869 134142 8e718b95c8d9ed2c232ad6994613ad78 ""
-  "chapters/contemporary_research/sub.aux" 1755075176.43072 6930 f71601554ec2a2cedc51df61d693eed8 "pdflatex"
-  "chapters/contemporary_research/sub.bbl" 1755073814.53422 20808 f83dd223273d459f641d3bf2e42072d5 "biber chapters/contemporary_research/sub"
-  "chapters/contemporary_research/sub.out" 1755075175.8221 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "chapters/contemporary_research/sub.run.xml" 1755075176.43806 2420 e8d19b20c28a89a88f01df87cf7c565b "pdflatex"
-  "chapters/contemporary_research/sub.tex" 1755075173.22957 11387 075441892daf3d75f7f592281a741cbf ""
+  "chapters/contemporary_research/sub.aux" 1755081705.29711 5560 fb01e95fd190ce1306991bf324a21f40 "pdflatex"
+  "chapters/contemporary_research/sub.bbl" 1755081246.51041 9469 9672aaf29fbf59bab2ff1062d6979ae3 "biber chapters/contemporary_research/sub"
+  "chapters/contemporary_research/sub.out" 1755081704.72322 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "chapters/contemporary_research/sub.run.xml" 1755081705.30811 2298 f69f6b5821fe4429793a4e21a52c7fb7 "pdflatex"
+  "chapters/contemporary_research/sub.tex" 1755081702.18721 11386 93dcd13c805f3c1352b98ed78622eb56 ""
   (generated)
   "chapters/contemporary_research/sub.aux"
   "chapters/contemporary_research/sub.bcf"

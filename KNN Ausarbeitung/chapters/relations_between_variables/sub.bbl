@@ -18,15 +18,14 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
+  \datalist[entry]{nty/global//global/global/global}
     \entry{marcus_algebraic_mind}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
+        {{hash=b84178b28215fb66ac3c5358f55a9b5f}{%
            family={Marcus},
            familyi={M\bibinitperiod},
            given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Cambridge, MA}%
@@ -44,44 +43,6 @@
       \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
-      \field{year}{2001}
-    \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{marcus_algebraic_mind}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b84178b28215fb66ac3c5358f55a9b5f}{%
-           family={Marcus},
-           familyi={M\bibinitperiod},
-           given={Gary\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA}%
-      }
-      \list{publisher}{1}{%
-        {The MIT Press}%
-      }
-      \strng{namehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{fullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{bibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorbibnamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authornamehash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhash}{b84178b28215fb66ac3c5358f55a9b5f}
-      \strng{authorfullhashraw}{b84178b28215fb66ac3c5358f55a9b5f}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Algebraic Mind: Integrating Connectionism and Cognitive Science}
